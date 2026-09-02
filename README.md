@@ -337,6 +337,9 @@ Creemos que ofrecer un modelo de suscripción escalonado, compuesto por un plan 
 </p>
 
 ##### 1.2.2.4. Lean UX Canvas
+<div>
+  <img src="assets/Lean_UX_Canvas.png" alt="Foto Lean UX Canvas (V2)" width="1000"/>
+</div>
 
 ### 1.3. Segmentos objetivo
 
