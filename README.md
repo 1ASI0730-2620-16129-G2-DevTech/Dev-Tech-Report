@@ -119,7 +119,108 @@ Nuestros valores son:
 
 
 #### 1.1.2. Perfiles de integrantes del equipo
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.PNG" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Breve descripcion
+      <br/><br/>
+      Dentro del equipo... (que funcion cumples)
+    </td>
+  </tr>
+  <tr>
+  </tr>
 
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Breve desccripcion 
+      <br/><br/>
+      Dentro del equipo... (que funcion cumples)
+    </td>
+  </tr>
+<tr>
+
+</tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+  </tr>
+  <tr>
+    <td>
+    <div align="Justify">
+      <b>Descripción:</b><br/>
+      Breve descripcion 
+      <br/><br/>
+      Dentro del equipo... (que funcion cumples)
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_adriana.jpg" alt="Foto de Adriana Ramos" width="500"/>
+    </td>
+    <td><b>Nombre:</b> Adriana Nicole Ramos Fuentes Rivera</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202018427</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy <b>Adriana Nicole Ramos Fuentes Rivera</b>, estudio la carrera de Ingeniería de Software en la UPC, actualmente estoy en el 5to ciclo. Me gusta aprender nuevas tecnologias y conocimientos complementarios que me permitan desarrollar soluciones a problematicas dentro de un contexto real. Cuento con experiencia en lenguajes de programación como C++ y Python, además de conocimientos en base de datos relacional y no relacional como SQL y MongoDB.
+      <br/><br/>
+      Dentro del equipo, me enfoco en el desarrollo de backend, aplicando principios de Domain Driven Design para mantener una lógica de negocio clara. Me considero una persona organizada y empática.
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de " width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO </td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+    Breve descripcion
+      <br/><br/>
+    Dentro del equipo... (que funcion cumples)  
+    </td>
+  </tr>
+
+</table>
 
 
 ### 1.2. Solution Profile
