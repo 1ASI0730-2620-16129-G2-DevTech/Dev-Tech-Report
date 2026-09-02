@@ -3,27 +3,22 @@
 "/>
 
 ## **Universidad Peruana de Ciencias Aplicadas**
-## **Carrera de Ingeniería de Software**
+### Carrera de Ingeniería de Software
 <br>
 
-#### **1ASI0729**
-### **Desarrollo de Aplicaciones Open Source**
+**Curso: Aplicaciones Web**
 
+**NRC: 16129**
 
-### **NRC**
-### **16129**
-
+**Docente: Alberto Wilmer Sanchez Seña**
+<br>
 
 ### **Informe del Trabajo Final**
 
-#### **Docente**
-### **Alberto Wilmer Sanchez Seña**
+**Nombre de la Startup:** DevTech
 
-#### **Equipo**
-### **DevTech**
-
-#### **Proyecto**
-### **WashTrack**
+**Nombre del producto:** WashTrack
+<br>
 
 ### **Integrantes**
 
@@ -36,41 +31,41 @@
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Pérez Vásquez, Ariana Valeria</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202416053</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202018427</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 0 0; text-align: center;"></td>
-        <td style="border: none; padding: 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
     </tr>
 </table>
 
 <div align="center">
 
-
-#### **Período 2026-02**
-
-
-
+#### *Setiembre, 2026*
 
 </div>
+<br>
+
+---
 
 ## Registro de Versiones
 
 | Versión | Fecha      | Autor                         | Descripcion                                              |
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
-| 1.0.0 | 28/09/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 1.0.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 1.2.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
 ---
 
 ## Project Report Collaboration Insights
@@ -81,26 +76,533 @@
 
 // Falta Imagen 
 
-# Tabla de Contenido
+---
+# Contenido
 
+## Tabla de Contenido
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+
+---
+## Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC - Student Outcome 5**
+
+<p align="justify">
+<b>Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.</b>
+</p>
+
+<p align="justify">
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
+        Nam ornare massa eu lobortis porttitor.<br>
+        Nam ut erat feugiat libero pretium semper at ac metus.<br>
+        Sed at eros dapibus, fermentum quam ut, bibendum lacus.<br>
+        Curabitur eget orci eget urna varius commodo.<br>
+        ...
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
+        Vivamus commodo libero eget venenatis imperdiet.<br>
+        Etiam imperdiet quam condimentum velit tempor porttitor.<br>
+        Suspendisse blandit nisl quis mauris vehicula faucibus.<br>
+        ...
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+---
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
 
-* 1.1.1. Descripción de la Startup
-* 1.1.2. Perfiles de integrantes del equipo
+#### 1.1.1. Descripción de la Startup
+<p align="justify">
+Somos DevTech, una startup tecnológica creada por estudiantes de la Universidad Peruana de Ciencias Aplicadas, enfocada en el desarrollo de soluciones digitales innovadoras para optimizar y transformar la gestión de negocios tradicionales mediante el uso de software. Nuestra startup busca facilitar la digitalización de procesos que actualmente se realizan de manera manual, permitiendo a los negocios mejorar su organización, reducir errores, optimizar sus tiempos de atención y ofrecer una mejor experiencia a sus clientes.
+</p>
+
+<p align="justify">
+Nuestro producto principal es WashTrack, una plataforma digital orientada a la gestión integral de lavanderías, esta solución permitirá a los negocios y sus clientes, registrar y administrar clientes, gestionar pedidos y prendas, realizar el seguimiento del estado de cada pedido y mantener un historial de las operaciones realizadas.
+</p>
+
+<p align="justify">
+La misión de DevTech es desarrollar soluciones tecnológicas accesibles, intuitivas y eficientes que permitan a los negocios tradicionales digitalizar sus procesos, optimizar su gestión y mejorar la experiencia de sus clientes.
+</p>
+
+<p align="justify">
+Nuestra visión es consolidarnos como una startup innovadora en el desarrollo de soluciones digitales para pequeñas y medianas empresas en Latinoamérica, contribuyendo a su transformación digital mediante plataformas que simplifiquen sus operaciones y generen valor tanto para los negocios como para sus clientes.
+</p>
+
+<p align="justify">
+Nuestros valores son:
+<ul>
+  <li>Innovación: Desarrollar soluciones tecnológicas que respondan a las necesidades actuales de los negocios y sus clientes.</li>
+  <li>Compromiso: Crear herramientas enfocadas en resolver problemas reales y generar valor para nuestros usuarios.</li>
+  <li>Accesibilidad: Diseñar soluciones fáciles de utilizar y accesibles para pequeñas y medianas empresas.</li>
+  <li>Transparencia: Facilitar información clara y actualizada sobre los procesos y pedidos de los clientes.</li>
+  <li>Eficiencia: Optimizar procesos para reducir tiempos, errores y tareas administrativas innecesarias.</li>
+  <li>Calidad: Priorizar la funcionalidad, confiabilidad y experiencia del usuario en cada solución desarrollada.</li>
+</ul>
+
+</p>
+
+
+#### 1.1.2. Perfiles de integrantes del equipo
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.PNG" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Breve descripcion
+      <br/><br/>
+      Dentro del equipo... (que funcion cumples)
+    </td>
+  </tr>
+  <tr>
+  </tr>
+
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Breve desccripcion 
+      <br/><br/>
+      Dentro del equipo... (que funcion cumples)
+    </td>
+  </tr>
+<tr>
+
+</tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+  </tr>
+  <tr>
+    <td>
+    <div align="Justify">
+      <b>Descripción:</b><br/>
+      Breve descripcion 
+      <br/><br/>
+      Dentro del equipo... (que funcion cumples)
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_adriana.jpg" alt="Foto de Adriana Ramos" width="500"/>
+    </td>
+    <td><b>Nombre:</b> Adriana Nicole Ramos Fuentes Rivera</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202018427</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy <b>Adriana Nicole Ramos Fuentes Rivera</b>, estudio la carrera de Ingeniería de Software en la UPC, actualmente estoy en el 5to ciclo. Me gusta aprender nuevas tecnologias y conocimientos complementarios que me permitan desarrollar soluciones a problematicas dentro de un contexto real. Cuento con experiencia en lenguajes de programación como C++ y Python, además de conocimientos en base de datos relacional y no relacional como SQL y MongoDB.
+      <br/><br/>
+      Dentro del equipo, me enfoco en el desarrollo de backend, aplicando principios de Domain Driven Design para mantener una lógica de negocio clara. Me considero una persona organizada y empática.
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de " width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO </td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+    Breve descripcion
+      <br/><br/>
+    Dentro del equipo... (que funcion cumples)  
+    </td>
+  </tr>
+
+</table>
+
 
 ### 1.2. Solution Profile
 
-* 1.2.1. Antecedentes y problemática
-* 1.2.2. Lean UX Process
+<p align="justify">
+WashTrack es una plataforma digital desarrollada por la startup DevTech, orientada a optimizar la gestión de lavanderías y mejorar la experiencia de sus clientes mediante herramientas tecnológicas accesibles y eficientes. La plataforma busca centralizar en un solo sistema los principales procesos relacionados con la recepción, gestión y seguimiento de los pedidos de lavandería. 
+</p>
 
-  * 1.2.2.1. Lean UX Problem Statements
-  * 1.2.2.2. Lean UX Assumptions
-  * 1.2.2.3. Lean UX Hypothesis Statements
-  * 1.2.2.4. Lean UX Canvas
+<p align="justify">
+Para las lavanderías, WashTrack permite registrar y gestionar clientes, crear pedidos, registrar las prendas y servicios solicitados, actualizar el estado de cada pedido y consultar el historial de operaciones, reemplazando procesos manuales como el registro de información en cuadernos, hojas de cálculo o mensajes dispersos y facilitando el control de los pedidos, mientras que, para los clientes, ofrece un espacio digital donde pueden consultar sus pedidos, visualizar el estado de sus prendas, revisar el historial de servicios, realizar pagos digitales y solicitar servicios de recojo y entrega a domicilio, brindándoles mayor visibilidad, comodidad y facilidad para gestionar sus servicios de lavandería sin necesidad de comunicarse constantemente con el negocio.
+</p>
+
+<p align="justify">
+Además, como valor diferencial, WashTrack integra la gestión operativa de la lavandería con el seguimiento del pedido por parte del cliente, permitiendo mantener la información sincronizada durante las diferentes etapas del servicio. Esto busca mejorar la transparencia del proceso, reducir la incertidumbre del cliente y facilitar la organización de las lavanderías.
+</p>
+
+<p align="justify">
+WashTrack se plantea como una solución escalable, que puede incorporar progresivamente nuevas funcionalidades de acuerdo con las necesidades de las lavanderías y sus clientes, como pagos digitales, servicios de recojo y entrega a domicilio, promociones, programas de fidelización y herramientas avanzadas de análisis.
+</p>
+
+#### 1.2.1. Antecedentes y problemática
+##### 1.2.1.1. What
+<p align="justify">
+Nuestra propuesta de solución, Easy Wash, se propone resolver las siguientes 3 problemáticas recurrentes en la vida personal, específicamente, cuando se desempeña el trabajo doméstico:
+<ul>
+    <li>Uno de los principales problemas a los que se enfrentan las personas independientes que consumen el servicio de lavandería es la limitada disponibilidad de tiempo para realizar tareas domésticas, ya que resulta difícil equilibrar la vida laboral con las responsabilidades domésticas y las actividades personales. Según la Encuesta Nacional de Uso del Tiempo (ENUT) correspondiente al año 2024 realizada por el INEI, la población peruana dedica una cantidad significativa de tiempo al trabajo doméstico no remunerado, donde en un día de semana, las mujeres destinan en promedio 3 horas y 35 minutos y los hombres 1 hora y 37 minutos a estas actividades, además, dentro ellas se encuentra la limpieza y cuidado de la ropa, que demanda en promedio 1 hora y 22 minutos diarios para las mujeres y 58 minutos para los hombres. Por consiguiente, destinar este tiempo diario a las actividades de limpieza y cuidado de la ropa, reduce el tiempo disponible para otras actividades personales, como el descanso, ejercicio, etc. por lo que resulta ideal contratar un servicio externo que realice estas actividades.</li><br>
+    <li>El segundo problema es la falta de recursos para el lavado de ropa dentro de los hogares. Según el informe técnico de Condiciones de Vida en el Perú con los resultados de la Encuesta Nacional de Hogares (ENAHO) correspondiente al primer trimestre del año 2026, indica que el 90,5% de los hogares tiene cocina a gas, 57,0% cuenta con refrigeradora/congeladora, 36,4% cuenta con computadora/laptop y 32,2% tiene lavadora de ropa. Asimismo, al comparar los resultados de los primeros trimestres de los años 2023, 2024 y 2025, se observa que la proporción de hogares que cuenta con una lavadora se ha mantenido relativamente estable, pasando de 33,2 % en 2023 a 34,2 % en 2024 y disminuyendo a 32,0 % en 2025, para posteriormente alcanzar el 32,2 % en 2026. Esto evidencia que una cantidad significativa de hogares peruanos no cuentan con una lavadora de ropa, en consecuencia, representa una gran limitación para realizar esta actividad de manera eficiente dentro del hogar.</li><br>
+    <li>Por último, las lavanderías y sus clientes pueden enfrentar dificultades relacionadas con la gestión, seguimiento y entrega de los pedidos, debido al uso de métodos tradicionales como cuadernos, mensajes de texto, recibos informales u otros registros que dificultan el acceso a la información de manera rápida, precisa y confiable. Esta falta de centralización puede generar errores durante las diferentes etapas del servicio. Asimismo, cuando no existe un sistema que permita actualizar y consultar el estado de los pedidos, los clientes deben comunicarse directamente con la lavandería para conocer el avance de sus prendas, generando una mayor carga de trabajo para el negocio y una experiencia menos eficiente para el usuario. Por lo tanto, es necesario contar con una plataforma digital que permita centralizar la información y los principales procesos de la lavandería, permitiendo que esta información sea consultada y actualizada de manera rápida, precisa y confiable.</li>
+</ul>
+
+</p>
+
+##### 1.2.1.2. Where
+<p align="justify">
+El problema se presenta principalmente en el sector de servicios de lavandería en el Perú, especialmente en lavanderías independientes, pequeñas y medianas que gestionan diariamente múltiples clientes y pedidos. Estas dificultades pueden presentarse tanto dentro del establecimiento físico, durante la recepción, clasificación, procesamiento y entrega de las prendas, como fuera de este, en la interacción entre la lavandería y sus clientes. Asimismo, desde la perspectiva del cliente, la necesidad se presenta en los hogares y en las actividades cotidianas de las personas que cuentan con poco tiempo para realizar tareas domésticas o que no disponen de una lavadora, por lo que requieren acceder a servicios de lavandería de manera más cómoda y eficiente. Por ello, la solución se orienta inicialmente al mercado peruano, conectando digitalmente a las lavanderías con sus clientes y facilitando tanto la gestión interna del negocio como el acceso y seguimiento de los servicios.
+</p>
+
+##### 1.2.1.3. When
+<p align="justify">
+Las problemáticas aparecen durante las diferentes etapas del servicio, por ejemplo, cuando se registra un pedido, durante el procesamiento de las prendas, al consultar su estado, al realizar el pago y al momento de coordinar la entrega. Estas dificultades pueden incrementarse conforme aumenta el número de clientes y pedidos que debe administrar una lavandería.
+</p>
+
+##### 1.2.1.4. Who
+<p align="justify">
+Las principales personas afectadas son, los propietarios y trabajadores de lavanderías, especialmente aquellos negocios que todavía gestionan clientes, pedidos y pagos mediante registros manuales o herramientas poco integradas, por otro lado, los clientes de las lavanderías, quienes necesitan conocer el estado de sus pedidos y acceder a servicios más cómodos y ágiles.
+</p>
+
+##### 1.2.1.5. Why
+<p align="justify">
+La problemática se presenta porque el lavado y cuidado de la ropa es una actividad doméstica recurrente que requiere tiempo y esfuerzo, lo que puede representar una dificultad para las personas que deben distribuir su tiempo entre responsabilidades laborales, académicas, familiares y personales, especialmente en los hogares que no cuentan con una lavadora y necesitan recurrir a servicios externos. Asimismo, las lavanderías deben gestionar diariamente información sobre clientes, pedidos, prendas, servicios, pagos y fechas de entrega, pero cuando estos procesos se realizan mediante cuadernos, mensajes, recibos u otras herramientas no integradas, aumenta la posibilidad de pérdida de información, confusiones y errores en la atención y entrega de los pedidos. En consecuencia, surge la necesidad de una solución que facilite tanto el acceso de los clientes al servicio como la organización de las lavanderías, mediante una plataforma digital que permita centralizar y gestionar los principales procesos del servicio de lavandería, haciendo que la información sea más accesible, ordenada y confiable para ambas partes.
+</p>
+
+##### 1.2.1.6. How
+<p align="justify">
+La problemática será abordada mediante el desarrollo de una plataforma digital que centralice y conecte los principales procesos de una lavandería con las necesidades de sus clientes. Por un lado, permitirá al personal de la lavandería registrar y administrar la información de los clientes, crear y gestionar pedidos, registrar las prendas y servicios solicitados, actualizar el estado de cada pedido y consultar el historial de operaciones desde un único sistema. Por otro lado, los clientes podrán acceder a la información de sus pedidos, consultar el estado de sus prendas, revisar su historial de servicios, realizar pagos digitales y solicitar servicios de recojo y entrega a domicilio. De esta manera, la plataforma permitirá mantener la información actualizada entre ambas partes, reducir la dependencia de registros manuales y canales de comunicación dispersos, disminuir posibles errores en la gestión y entrega de los pedidos, y facilitar el acceso a los servicios de lavandería sin que el cliente tenga que realizar todas las gestiones de manera presencial.
+</p>
+
+##### 1.2.1.6. How much
+<p align="justify">
+La solución adoptará un modelo de suscripción mensual dirigido principalmente a las lavanderías, permitiendo que los negocios seleccionen el plan que mejor se adapte a su tamaño, cantidad de pedidos y necesidades de gestión. Se plantean inicialmente tres alternativas, un plan gratuito, orientado a lavanderías que deseen comenzar a digitalizar sus operaciones y conocer la plataforma, un plan básico de S/ 49 mensuales, dirigido a pequeños negocios que requieren mayores capacidades de gestión y seguimiento, y un plan avanzado de S/ 99 mensuales, orientado a lavanderías con un mayor volumen de operaciones y que necesitan acceder a funcionalidades más completas. Además, el acceso de los clientes de las lavanderías no tendría un costo adicional, ya que su participación forma parte del servicio contratado por el negocio. Por lo tanto, esta estructura permitirá establecer una estrategia de monetización escalonada, facilitando la captación de nuevos usuarios mediante el plan gratuito y generando ingresos recurrentes a través de los planes de pago.
+</p>
+
+#### 1.2.2. Lean UX Process
+##### 1.2.2.1. Lean UX Problem Statements
+<p align="justify">
+
+</p>
+
+<p align="justify">
+
+**Problem statement 1:**
+
+Nuestro producto fue diseñado para optimizar la gestión operativa de pequeñas y medianas lavanderías, brindándoles una herramienta digital que les permita centralizar la información de sus clientes, pedidos, prendas y servicios, con el propósito de reducir el tiempo destinado a tareas administrativas y disminuir errores durante la gestión de las órdenes.
+
+Hemos observado que las lavanderías pueden presentar dificultades para organizar y realizar el seguimiento de sus pedidos debido al uso de cuadernos, recibos, hojas de cálculo, mensajes de texto y otros medios no integrados, lo que dificulta mantener la información actualizada y acceder a ella de manera rápida y confiable.
+
+Esto puede generar confusiones en el registro de pedidos, pérdida de información, errores en las fechas de entrega, dificultades para identificar las prendas y entregas incorrectas, afectando tanto la eficiencia operativa del negocio como la satisfacción de sus clientes.
+
+Por tanto, nos preguntamos: ¿Cómo podríamos centralizar y simplificar la gestión de pedidos y prendas de las lavanderías para reducir los errores operativos y mejorar el control de sus servicios, medido a través de la reducción de incidencias y del tiempo destinado a la gestión de los pedidos?
+
+</p>
+
+<p align="justify">
+
+**Problem statement 2:**
+
+Nuestro producto fue diseñado para facilitar el acceso a los servicios de lavandería a personas que disponen de poco tiempo para realizar tareas domésticas o que no cuentan con una lavadora en sus hogares, permitiéndoles gestionar sus servicios de manera más cómoda y reducir el tiempo y esfuerzo asociados al lavado de sus prendas.
+
+Hemos observado que las personas deben distribuir su tiempo entre actividades laborales, académicas, familiares y personales, mientras que el lavado y cuidado de la ropa continúa siendo una tarea doméstica recurrente. Asimismo, no todos los hogares cuentan con los recursos necesarios para realizar esta actividad de manera independiente, por lo que deben recurrir a lavanderías y trasladarse hasta estos establecimientos para solicitar y recoger sus servicios.
+
+Esto genera mayor inversión de tiempo y esfuerzo por parte de los clientes, además de dificultades para conocer el estado de sus prendas, coordinar el recojo y entrega de sus pedidos y realizar otras gestiones relacionadas con el servicio.
+
+Por tanto, nos preguntamos: ¿Cómo podríamos facilitar el acceso y la gestión de los servicios de lavandería para que los clientes reduzcan el tiempo y esfuerzo destinado a estas actividades, medido a través del uso de servicios digitales y de recojo y entrega a domicilio?
+</p>
+
+<p align="justify">
+
+**Problem statement 3:**
+
+Nuestro producto fue diseñado para mejorar la comunicación y el seguimiento entre las lavanderías y sus clientes, proporcionando un espacio digital donde ambas partes puedan acceder a información actualizada sobre los pedidos durante las diferentes etapas del servicio.
+
+Hemos observado que los clientes pueden depender de llamadas, mensajes de texto o consultas presenciales para conocer el estado de sus prendas, mientras que las lavanderías deben responder individualmente a estas solicitudes y mantener actualizada la información mediante diferentes canales.
+
+Esto genera incertidumbre para los clientes, mayor carga de atención para las lavanderías y posibles inconsistencias en la información proporcionada, especialmente cuando existen múltiples pedidos en proceso y diferentes fechas de entrega.
+
+Por tanto, nos preguntamos: ¿Cómo podríamos mejorar la comunicación y el seguimiento de los pedidos entre las lavanderías y sus clientes para brindar información más oportuna y confiable, medido a través de la reducción de consultas sobre el estado de los pedidos y el incremento en la satisfacción de los usuarios?
+</p>
+
+##### 1.2.2.2. Lean UX Assumptions
+###### 1.2.2.2.1. ¿Quién es el usuario?
+<p align="justify">
+Los usuarios de la solución se dividen principalmente en dos grupos. El primero está conformado por los propietarios, administradores y trabajadores de pequeñas y medianas lavanderías, quienes necesitan gestionar clientes, pedidos, prendas, servicios, pagos y entregas de manera organizada. El segundo grupo corresponde a los clientes de las lavanderías, especialmente personas que cuentan con una disponibilidad limitada de tiempo para realizar tareas domésticas o que no disponen de una lavadora en sus hogares, y que buscan una alternativa más cómoda para solicitar, pagar y realizar el seguimiento de sus servicios de lavandería.
+</p>
+
+###### 1.2.2.2.2. ¿Dónde encaja nuestro producto en su trabajo o vida?
+<p align="justify">
+La solución se integra en el proceso cotidiano de gestión y prestación del servicio de lavandería. Para las lavanderías, funcionará como una herramienta central para registrar clientes y pedidos, administrar las prendas, actualizar el estado de las órdenes y consultar el historial de operaciones, reduciendo la dependencia de cuadernos, recibos, hojas de cálculo y mensajes dispersos. Para los clientes, se integrará en las actividades relacionadas con la solicitud y seguimiento del servicio, permitiéndoles consultar sus pedidos, conocer el estado de sus prendas, realizar pagos digitales y coordinar servicios de recojo y entrega a domicilio sin necesidad de realizar todas las gestiones presencialmente.
+</p>
+
+###### 1.2.2.2.3. ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?
+<p align="justify">
+<ul>
+    <li>Resistencia a la adopción de herramientas digitales: Algunas lavanderías pueden estar acostumbradas a gestionar sus operaciones mediante métodos tradicionales y presentar dificultades para adaptarse a un nuevo sistema.<br><br>Solución: Desarrollar una interfaz sencilla e intuitiva, acompañada de un proceso de incorporación que permita al personal aprender las funciones principales rápidamente.</li><br>
+    <li>Limitaciones económicas de las pequeñas lavanderías: Algunos negocios pueden considerar que implementar una nueva herramienta representa un gasto adicional.<br><br>Solución: Establecer un modelo de suscripción escalonado, con un plan gratuito y planes de pago con funcionalidades adicionales, permitiendo que cada negocio seleccione la alternativa de acuerdo con sus necesidades.</li><br>
+    <li>Información desactualizada o incorrecta: Si los estados de los pedidos no se actualizan oportunamente, los clientes podrían recibir información incorrecta sobre sus prendas.<br><br>Solución: Permitir que el personal actualice el estado de cada pedido desde la plataforma y que dicha información se refleje para el cliente.</li><br>
+    <li>Dependencia de la conectividad: Algunas operaciones podrían verse afectadas ante problemas de conexión a internet.<br><br>Solución: Evaluar mecanismos de almacenamiento temporal y sincronización de información para garantizar la continuidad de las operaciones esenciales.</li>
+</ul>
+</p>
+
+###### 1.2.2.2.4. ¿Cuándo y cómo es usado nuestro producto?
+<p align="justify">
+WashTrack será utilizada durante las diferentes etapas del servicio de lavandería, donde el personal podrá utilizarla al recibir un pedido para registrar los datos del cliente, las prendas y los servicios solicitados, durante el procesamiento para actualizar el estado de la orden, y al finalizar para verificar la información y gestionar su entrega. Por otro lado, los clientes podrán utilizarla cuando necesiten solicitar un servicio, consultar el estado de sus prendas, revisar pedidos anteriores, realizar un pago o coordinar el recojo y la entrega. En resumen, se espera que la plataforma tenga un uso recurrente, tanto durante la operación diaria de la lavandería como durante las interacciones del cliente con el servicio.
+</p>
+
+###### 1.2.2.2.5. ¿Qué características son importantes?
+<p align="justify">
+<ul>
+    <li>Gestión de clientes y pedidos: Registro y consulta de información de clientes y órdenes.</li>
+    <li>Gestión de prendas y servicios: Registro de las prendas recibidas y de los servicios solicitados.</li>
+    <li>Seguimiento de pedidos: Actualización y visualización del estado de las prendas durante el proceso</li>
+    <li>Historial de operaciones: Consulta de pedidos y servicios realizados anteriormente.</li>
+    <li>Pagos digitales: Posibilidad de realizar y gestionar pagos desde la plataforma.</li>
+    <li>Recojo y entrega a domicilio: Solicitud y coordinación de servicios de recojo y devolución.</li>
+    <li>Notificaciones: Comunicación al cliente sobre cambios relevantes en el estado de su pedido.</li>
+    <li>Dashboard para lavanderías: Visualización de indicadores básicos sobre pedidos, clientes y operaciones.</li>
+</ul>
+</p>
+
+###### 1.2.2.2.6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?
+<p align="justify">
+En primer lugar, la plataforma debe presentar una interfaz limpia, sencilla e intuitiva, priorizando la facilidad de uso tanto para el personal de las lavanderías como para los clientes. En segundo lugar, las principales acciones, como registrar un pedido, consultar el estado de una prenda o realizar un pago, deben poder ejecutarse con pocos pasos y con información claramente organizada. También, el sistema debe proporcionar retroalimentación inmediata cuando se registre o actualice una operación y mantener sincronizada la información entre la lavandería y el cliente. Por último, debe transmitir una sensación de confianza y orden, especialmente en procesos sensibles como el registro de prendas, pagos y entrega de pedidos.
+</p>
+
+###### 1.2.2.2.7. Business Outcomes
+<p align="justify">
+<ul>
+    <li>Generación de ingresos recurrentes mediante un modelo de suscripción mensual para lavanderías.</li>
+    <li>Adopción progresiva de la plataforma, utilizando el plan gratuito como mecanismo de entrada y los planes premium como fuente de monetización.</li>
+    <li>Incremento de lavanderías afiliadas, consolidando progresivamente la solución dentro del mercado peruano.</li>
+    <li>Fidelización de lavanderías y clientes mediante una experiencia de servicio más organizada y conveniente.</li>
+    <li>Reducción de incidencias operativas relacionadas con errores de registro, pérdida de información y entrega incorrecta de pedidos.</li>
+    <li>Escalabilidad del producto, incorporando nuevas funcionalidades según las necesidades identificadas en las lavanderías y sus clientes.</li>
+</ul>
+</p>
+
+###### 1.2.2.2.8. User Outcomes
+<p align="justify">
+<ul>
+    <li>Ahorro de tiempo: Los clientes pueden gestionar sus servicios sin tener que realizar todas las consultas o coordinaciones presencialmente.</li>
+    <li>Mayor comodidad: Posibilidad de solicitar servicios, realizar pagos y coordinar recojos y entregas desde un mismo espacio.</li>
+    <li>Mayor transparencia: Los clientes pueden conocer el estado de sus prendas durante las diferentes etapas del servicio.</li>
+    <li>Mejor organización: Las lavanderías pueden centralizar la información de clientes, pedidos y prendas.</li>
+    <li>Reducción de errores: Disminución de confusiones relacionadas con pedidos, fechas, prendas y entregas.</li>
+    <li>Mayor control operativo: Los responsables de la lavandería pueden consultar el historial y estado de sus operaciones de manera más rápida.</li>
+</ul>
+</p>
+
+###### 1.2.2.2.9. Features
+<p align="justify">
+<ul>
+    <li>Módulo de gestión de clientes: Registro, consulta y actualización de información.</li>
+    <li>Módulo de pedidos: Creación, modificación y seguimiento de órdenes.</li>
+    <li>Registro de prendas: Identificación de prendas asociadas a cada pedido.</li>
+    <li>Estados del pedido: Recibido, en proceso, listo para entrega, entregado, entre otros.</li>
+    <li>Historial de servicios: Consulta de pedidos anteriores y servicios realizados.</li>
+    <li>Dashboard del cliente: Acceso a pedidos, estados, historial y datos del servicio.</li>
+    <li>Pagos digitales: Gestión de pagos asociados a los pedidos.</li>
+    <li>Recojo y entrega a domicilio: Solicitud y coordinación de servicios logísticos.</li>
+    <li>Notificaciones: Avisos sobre cambios en el estado del pedido y próximas entregas.</li>
+    <li>Dashboard de lavandería: Indicadores sobre pedidos, clientes y operaciones.</li>
+    <li>Planes de suscripción: Administración de los planes gratuito, básico y avanzado.</li>
+</ul>
+</p>
+
+##### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hypothesis Statement 1**
+<p align="justify">
+Creemos que centralizar la gestión de clientes, pedidos y prendas en una plataforma digital intuitiva permitirá a los propietarios y trabajadores de las lavanderías reducir los errores asociados al registro y seguimiento manual de las órdenes y mejorar el control sobre sus operaciones. Sabremos que esto es cierto cuando observemos una reducción de al menos 30% en las incidencias relacionadas con pedidos, prendas y fechas de entrega, así como una disminución en el tiempo promedio destinado al registro y consulta de información.
+</p>
+
+**Hypothesis Statement 2**
+<p align="justify">
+Creemos que permitir a los clientes consultar digitalmente el estado de sus pedidos y prendas mejorará la transparencia del servicio y disminuirá la necesidad de comunicarse directamente con la lavandería para realizar consultas. Sabremos que esto es cierto cuando al menos el 70% de los clientes utilice la función de seguimiento y se registre una reducción de al menos 30% en las consultas relacionadas con el estado de los pedidos.
+</p>
+
+**Hypothesis Statement 3**
+<p align="justify">
+Creemos que incorporar pagos digitales y servicios de recojo y entrega a domicilio permitirá a los clientes gestionar sus servicios de lavandería de manera más cómoda y reducir el tiempo y esfuerzo asociado a estas actividades. Sabremos que esto es cierto cuando al menos el 60% de los usuarios activos utilice alguna de estas funcionalidades y los clientes reporten una mejora de al menos 30% en su percepción de comodidad y facilidad de uso.
+</p>
+
+**Hypothesis Statement 4**
+<p align="justify">
+Creemos que ofrecer un modelo de suscripción escalonado, compuesto por un plan gratuito y planes de pago con funcionalidades adicionales, facilitará la adopción de la plataforma por parte de pequeñas y medianas lavanderías, permitiéndoles probar la solución antes de asumir un costo mensual. Sabremos que esto es cierto cuando al menos el 40% de las lavanderías que comiencen utilizando el plan gratuito permanezcan activas después del periodo inicial de prueba y un porcentaje de ellas migre posteriormente hacia alguno de los planes de pago.
+</p>
+
+##### 1.2.2.4. Lean UX Canvas
+<div>
+  <img src="assets/Lean_UX_Canvas.png" alt="Foto Lean UX Canvas (V2)" width="1000"/>
+</div>
 
 ### 1.3. Segmentos objetivo
+
+#### 1.3.1. Dueños de lavanderías independientes
+
+<p align="justify">
+Propietarios de pequeñas y medianas lavanderías que gestionan de manera directa las operaciones de sus establecimientos, incluyendo el registro de clientes, recepción de pedidos, control de prendas, actualización de estados, coordinación de entregas y seguimiento de los servicios realizados. Este segmento presenta una necesidad de mejorar la organización y centralización de sus procesos, especialmente cuando emplea métodos manuales o herramientas no integradas para administrar la información. WashTrack está orientada a facilitar la gestión operativa, reducir posibles errores y proporcionar un mayor control sobre los pedidos y servicios ofrecidos.
+</p>
+
+#### 1.3.2. Personas independientes que utilicen el servicio de lavanderías
+
+<p align="justify">
+Personas que recurren a servicios de lavandería para el cuidado y limpieza de sus prendas, principalmente aquellas que cuentan con una disponibilidad limitada de tiempo debido a sus actividades laborales, académicas, familiares o personales, así como aquellas que no disponen de una lavadora en sus hogares. Este segmento busca una alternativa que le permita gestionar sus servicios de manera práctica, conocer el estado de sus pedidos, realizar pagos digitales y acceder a opciones de recojo y entrega a domicilio. WashTrack busca brindarles mayor comodidad, reducir el tiempo y esfuerzo asociado a estas actividades y mejorar la transparencia durante todo el proceso del servicio.
+</p>
 
 ---
 
@@ -108,21 +610,21 @@
 
 ### 2.1. Competidores
 
-* 2.1.1. Análisis competitivo
-* 2.1.2. Estrategias y tácticas frente a competidores
+#### 2.1.1. Análisis competitivo
+#### 2.1.2. Estrategias y tácticas frente a competidores
 
 ### 2.2. Entrevistas
 
-* 2.2.1. Diseño de entrevistas
-* 2.2.2. Registro de entrevistas
-* 2.2.3. Análisis de entrevistas
+#### 2.2.1. Diseño de entrevistas
+#### 2.2.2. Registro de entrevistas
+#### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
 
-* 2.3.1. User Personas
-* 2.3.2. User Task Matrix
-* 2.3.3. User Journey Mapping
-* 2.3.4. Empathy Mapping
+#### 2.3.1. User Personas
+#### 2.3.2. User Task Matrix
+#### 2.3.3. User Journey Mapping
+#### 2.3.4. Empathy Mapping
 
 ### 2.4. Big Picture EventStorming
 
