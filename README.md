@@ -120,9 +120,29 @@ Nuestros valores son:
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
+
+
 ### 1.2. Solution Profile
 
+<p align="justify">
+WashTrack es una plataforma digital desarrollada por la startup DevTech, orientada a optimizar la gestión de lavanderías y mejorar la experiencia de sus clientes mediante herramientas tecnológicas accesibles y eficientes. La plataforma busca centralizar en un solo sistema los principales procesos relacionados con la recepción, gestión y seguimiento de los pedidos de lavandería. 
+</p>
+
+<p align="justify">
+Para las lavanderías, WashTrack permite registrar y gestionar clientes, crear pedidos, registrar las prendas y servicios solicitados, actualizar el estado de cada pedido y consultar el historial de operaciones, reemplazando procesos manuales como el registro de información en cuadernos, hojas de cálculo o mensajes dispersos y facilitando el control de los pedidos, mientras que, para los clientes, ofrece un espacio digital donde pueden consultar sus pedidos, visualizar el estado de sus prendas, revisar el historial de servicios, realizar pagos digitales y solicitar servicios de recojo y entrega a domicilio, brindándoles mayor visibilidad, comodidad y facilidad para gestionar sus servicios de lavandería sin necesidad de comunicarse constantemente con el negocio.
+</p>
+
+<p align="justify">
+Además, como valor diferencial, WashTrack integra la gestión operativa de la lavandería con el seguimiento del pedido por parte del cliente, permitiendo mantener la información sincronizada durante las diferentes etapas del servicio. Esto busca mejorar la transparencia del proceso, reducir la incertidumbre del cliente y facilitar la organización de las lavanderías.
+</p>
+
+<p align="justify">
+WashTrack se plantea como una solución escalable, que puede incorporar progresivamente nuevas funcionalidades de acuerdo con las necesidades de las lavanderías y sus clientes, como pagos digitales, servicios de recojo y entrega a domicilio, promociones, programas de fidelización y herramientas avanzadas de análisis.
+</p>
+
 * 1.2.1. Antecedentes y problemática
+
+
 * 1.2.2. Lean UX Process
 
   * 1.2.2.1. Lean UX Problem Statements
