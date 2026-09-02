@@ -1,9 +1,9 @@
-<div align="center">
+﻿<div align="center">
 <img src="assets/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
 ## **Universidad Peruana de Ciencias Aplicadas**
-## **Carrera de Ingeniería de Software**
+## **Carrera de IngenierÃ­a de Software**
 <br>
 
 #### **1ASI0729**
@@ -17,7 +17,7 @@
 ### **Informe del Trabajo Final**
 
 #### **Docente**
-### **Alberto Wilmer Sanchez Seña**
+### **Alberto Wilmer Sanchez SeÃ±a**
 
 #### **Equipo**
 ### **DevTech**
@@ -31,7 +31,7 @@
 
 <table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
     <tr>
-        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">CÃ³digo</th>
         <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
     </tr>
     <tr>
@@ -59,7 +59,7 @@
 <div align="center">
 
 
-#### **Período 2026-02**
+#### **PerÃ­odo 2026-02**
 
 
 
@@ -68,41 +68,41 @@
 
 ## Registro de Versiones
 
-| Versión | Fecha      | Autor                         | Descripción |
+| VersiÃ³n | Fecha      | Autor                         | DescripciÃ³n |
 | :--- |:-----------|:------------------------------| :--- |
-| 1.0.0 | 28/09/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 1.0.0 | 28/09/2026 | Gabriel Ramirez y Luis TufiÃ±o | CreÃ³ el repositorio junto a los branch de cada capÃ­tulo. |
 ---
 
 ## Project Report Collaboration Insights
 
 // Enlaces  de repositorios
 
-*Reporte de colaboración de la entrega del TP:*
+*Reporte de colaboraciÃ³n de la entrega del TP:*
 
 // Falta Imagen 
 
 ## Tabla de Contenido
 
-* [Capítulo I: Introducción](#capítulo-i-introducción)
+* [CapÃ­tulo I: IntroducciÃ³n](#capÃ­tulo-i-introducciÃ³n)
     * [1.1. Startup Profile](#11-startup-profile)
-        * [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+        * [1.1.1. DescripciÃ³n de la Startup](#111-descripciÃ³n-de-la-startup)
         * [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
             * [1.1.2.2. Integrantes del Equipo](#1122-integrantes-del-equipo)
     * [1.2. Solution Profile](#12-solution-profile)
-        * [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+        * [1.2.1 Antecedentes y problemÃ¡tica](#121-antecedentes-y-problemÃ¡tica)
         * [1.2.2. Lean UX Process](#122-lean-ux-process)
             * [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
             * [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
             * [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
             * [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
     * [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-* [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+* [CapÃ­tulo II: Requirements Elicitation & Analysis](#capÃ­tulo-ii-requirements-elicitation--analysis)
     * [2.1. Competidores](#21-competidores)
-        * [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+        * [2.1.2. Estrategias y tÃ¡cticas frente a competidores](#212-estrategias-y-tÃ¡cticas-frente-a-competidores)
     * [2.2. Entrevistas](#22-entrevistas)
-        * [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+        * [2.2.1. DiseÃ±o de entrevistas](#221-diseÃ±o-de-entrevistas)
         * [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        * [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+        * [2.2.3. AnÃ¡lisis de entrevistas](#223-anÃ¡lisis-de-entrevistas)
     * [2.3. Needfinding](#23-needfinding)
         * [2.3.1. User Personas](#231-user-personas)
         * [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -110,11 +110,11 @@
         * [2.3.4. Empathy Mapping](#234-empathy-mapping)
     * [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
     * [2.5. Ubiquitous Language](#25-ubiquitous-language)
-* [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+* [CapÃ­tulo III: Requirements Specification](#capÃ­tulo-iii-requirements-specification)
     * [3.1. User Stories](#31-user-stories)
     * [3.2. Impact Mapping](#32-impact-mapping)
     * [3.3 Product Backlog](#33-product-backlog)
-* [Capítulo IV: Product Design](#capítulo-iv-product-design)
+* [CapÃ­tulo IV: Product Design](#capÃ­tulo-iv-product-design)
     * [4.1 Style Guidelines](#41-style-guidelines)
         * [4.1.1 General Style Guidelines](#411-general-style-guidelines)
         * [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
@@ -140,7 +140,7 @@
     * [4.7.1 Class Diagrams](#471-class-diagrams)
     * [4.8 Database Design](#48-database-design)
         * [4.8.1 Database Diagrams](#481-database-diagrams)
-* [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+* [CapÃ­tulo V: Product Implementation, Validation & Deployment](#capÃ­tulo-v-product-implementation-validation--deployment)
     * [5.1. Software Configuration Management](#51-software-configuration-management)
         * [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
         * [5.1.2. Source Code Management](#512-source-code-management)
@@ -165,7 +165,7 @@
             * [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review-1)
             * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review-1)
             * [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint-1)
-* [Bibliografía](#bibliografía)
+* [BibliografÃ­a](#bibliografÃ­a)
 * [Anexos](#anexos)
 
 ---
