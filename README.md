@@ -52,7 +52,7 @@
 
 <div align="center">
 
-*Setiembre, 2026*
+#### *Setiembre, 2026*
 
 </div>
 
@@ -62,7 +62,8 @@
 
 | Versión | Fecha      | Autor                         | Descripcion                                              |
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
-| 1.0.0 | 28/09/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 1.0.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 1.2.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
 ---
 
 ## Project Report Collaboration Insights
