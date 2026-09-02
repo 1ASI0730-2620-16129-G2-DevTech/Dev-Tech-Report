@@ -3,27 +3,21 @@
 "/>
 
 ## **Universidad Peruana de Ciencias Aplicadas**
-## **Carrera de Ingeniería de Software**
+### Carrera de Ingeniería de Software
 <br>
 
-#### **1ASI0729**
-### **Desarrollo de Aplicaciones Open Source**
+**Curso: Aplicaciones Web**
 
+**NRC: 16129**
 
-### **NRC**
-### **16129**
-
+**Docente: Alberto Wilmer Sanchez Seña**
 
 ### **Informe del Trabajo Final**
 
-#### **Docente**
-### **Alberto Wilmer Sanchez Seña**
+**Nombre de la Startup:** DevTech
 
-#### **Equipo**
-### **DevTech**
+**Nombre del producto:** WashTrack
 
-#### **Proyecto**
-### **WashTrack**
 
 ### **Integrantes**
 
@@ -36,35 +30,33 @@
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Pérez Vásquez, Ariana Valeria</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202416053</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202018427</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 0 0; text-align: center;"></td>
-        <td style="border: none; padding: 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
     </tr>
 </table>
 
 <div align="center">
 
-
-#### **Período 2026-02**
-
-
-
+*Setiembre, 2026*
 
 </div>
+
+---
 
 ## Registro de Versiones
 
