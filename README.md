@@ -87,8 +87,36 @@
 
 ### 1.1. Startup Profile
 
-* 1.1.1. Descripción de la Startup
-* 1.1.2. Perfiles de integrantes del equipo
+#### 1.1.1. Descripción de la Startup
+<p align="justify">
+Somos DevTech, una startup tecnológica creada por estudiantes de la Universidad Peruana de Ciencias Aplicadas, enfocada en el desarrollo de soluciones digitales innovadoras para optimizar y transformar la gestión de negocios tradicionales mediante el uso de software. Nuestra startup busca facilitar la digitalización de procesos que actualmente se realizan de manera manual, permitiendo a los negocios mejorar su organización, reducir errores, optimizar sus tiempos de atención y ofrecer una mejor experiencia a sus clientes.
+</p>
+
+<p align="justify">
+Nuestro producto principal es WashTrack, una plataforma digital orientada a la gestión integral de lavanderías, esta solución permitirá a los negocios y sus clientes, registrar y administrar clientes, gestionar pedidos y prendas, realizar el seguimiento del estado de cada pedido y mantener un historial de las operaciones realizadas.
+</p>
+
+<p align="justify">
+La misión de DevTech es desarrollar soluciones tecnológicas accesibles, intuitivas y eficientes que permitan a los negocios tradicionales digitalizar sus procesos, optimizar su gestión y mejorar la experiencia de sus clientes.
+</p>
+
+<p align="justify">
+Nuestra visión es consolidarnos como una startup innovadora en el desarrollo de soluciones digitales para pequeñas y medianas empresas en Latinoamérica, contribuyendo a su transformación digital mediante plataformas que simplifiquen sus operaciones y generen valor tanto para los negocios como para sus clientes.
+</p>
+
+<p align="justify">
+Nuestros valores son:
+<ul>
+  <li>Innovación: Desarrollar soluciones tecnológicas que respondan a las necesidades actuales de los negocios y sus clientes.</li>
+  <li>Compromiso: Crear herramientas enfocadas en resolver problemas reales y generar valor para nuestros usuarios.</li>
+  <li>Accesibilidad: Diseñar soluciones fáciles de utilizar y accesibles para pequeñas y medianas empresas.</li>
+  <li>Transparencia: Facilitar información clara y actualizada sobre los procesos y pedidos de los clientes.</li>
+</ul>
+
+</p>
+
+
+#### 1.1.2. Perfiles de integrantes del equipo
 
 ### 1.2. Solution Profile
 
