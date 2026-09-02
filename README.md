@@ -111,6 +111,8 @@ Nuestros valores son:
   <li>Compromiso: Crear herramientas enfocadas en resolver problemas reales y generar valor para nuestros usuarios.</li>
   <li>Accesibilidad: Diseñar soluciones fáciles de utilizar y accesibles para pequeñas y medianas empresas.</li>
   <li>Transparencia: Facilitar información clara y actualizada sobre los procesos y pedidos de los clientes.</li>
+  <li>Eficiencia: Optimizar procesos para reducir tiempos, errores y tareas administrativas innecesarias.</li>
+  <li>Calidad: Priorizar la funcionalidad, confiabilidad y experiencia del usuario en cada solución desarrollada.</li>
 </ul>
 
 </p>
