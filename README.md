@@ -35,20 +35,20 @@
         <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u202416053</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u20241D338</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Perez Vasquez, Ariana Valeria</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202216240</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 0 0; text-align: center;"></td>
