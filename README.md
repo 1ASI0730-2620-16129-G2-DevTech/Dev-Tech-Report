@@ -30,7 +30,7 @@
         <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241D338</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Pérez Vásquez, Ariana Valeria</td>
     </tr>
     <tr>
@@ -46,15 +46,13 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202216240</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
     </tr>
 </table>
-
+<br>
 <div align="center">
-
-#### *Setiembre, 2026*
-
+<b><i>Setiembre, 2026</i></b>
 </div>
 <br>
 
@@ -390,7 +388,7 @@ WashTrack se plantea como una solución escalable, que puede incorporar progresi
 </p>
 
 #### 1.2.1. Antecedentes y problemática
-##### 1.2.1.1. What
+**1.2.1.1. What**
 <p align="justify">
 Nuestra propuesta de solución, Easy Wash, se propone resolver las siguientes 3 problemáticas recurrentes en la vida personal, específicamente, cuando se desempeña el trabajo doméstico:
 <ul>
@@ -401,32 +399,32 @@ Nuestra propuesta de solución, Easy Wash, se propone resolver las siguientes 3 
 
 </p>
 
-##### 1.2.1.2. Where
+**1.2.1.2. Where**
 <p align="justify">
 El problema se presenta principalmente en el sector de servicios de lavandería en el Perú, especialmente en lavanderías independientes, pequeñas y medianas que gestionan diariamente múltiples clientes y pedidos. Estas dificultades pueden presentarse tanto dentro del establecimiento físico, durante la recepción, clasificación, procesamiento y entrega de las prendas, como fuera de este, en la interacción entre la lavandería y sus clientes. Asimismo, desde la perspectiva del cliente, la necesidad se presenta en los hogares y en las actividades cotidianas de las personas que cuentan con poco tiempo para realizar tareas domésticas o que no disponen de una lavadora, por lo que requieren acceder a servicios de lavandería de manera más cómoda y eficiente. Por ello, la solución se orienta inicialmente al mercado peruano, conectando digitalmente a las lavanderías con sus clientes y facilitando tanto la gestión interna del negocio como el acceso y seguimiento de los servicios.
 </p>
 
-##### 1.2.1.3. When
+**1.2.1.3. When**
 <p align="justify">
 Las problemáticas aparecen durante las diferentes etapas del servicio, por ejemplo, cuando se registra un pedido, durante el procesamiento de las prendas, al consultar su estado, al realizar el pago y al momento de coordinar la entrega. Estas dificultades pueden incrementarse conforme aumenta el número de clientes y pedidos que debe administrar una lavandería.
 </p>
 
-##### 1.2.1.4. Who
+**1.2.1.4. Who**
 <p align="justify">
 Las principales personas afectadas son, los propietarios y trabajadores de lavanderías, especialmente aquellos negocios que todavía gestionan clientes, pedidos y pagos mediante registros manuales o herramientas poco integradas, por otro lado, los clientes de las lavanderías, quienes necesitan conocer el estado de sus pedidos y acceder a servicios más cómodos y ágiles.
 </p>
 
-##### 1.2.1.5. Why
+**1.2.1.5. Why**
 <p align="justify">
 La problemática se presenta porque el lavado y cuidado de la ropa es una actividad doméstica recurrente que requiere tiempo y esfuerzo, lo que puede representar una dificultad para las personas que deben distribuir su tiempo entre responsabilidades laborales, académicas, familiares y personales, especialmente en los hogares que no cuentan con una lavadora y necesitan recurrir a servicios externos. Asimismo, las lavanderías deben gestionar diariamente información sobre clientes, pedidos, prendas, servicios, pagos y fechas de entrega, pero cuando estos procesos se realizan mediante cuadernos, mensajes, recibos u otras herramientas no integradas, aumenta la posibilidad de pérdida de información, confusiones y errores en la atención y entrega de los pedidos. En consecuencia, surge la necesidad de una solución que facilite tanto el acceso de los clientes al servicio como la organización de las lavanderías, mediante una plataforma digital que permita centralizar y gestionar los principales procesos del servicio de lavandería, haciendo que la información sea más accesible, ordenada y confiable para ambas partes.
 </p>
 
-##### 1.2.1.6. How
+**1.2.1.6. How**
 <p align="justify">
 La problemática será abordada mediante el desarrollo de una plataforma digital que centralice y conecte los principales procesos de una lavandería con las necesidades de sus clientes. Por un lado, permitirá al personal de la lavandería registrar y administrar la información de los clientes, crear y gestionar pedidos, registrar las prendas y servicios solicitados, actualizar el estado de cada pedido y consultar el historial de operaciones desde un único sistema. Por otro lado, los clientes podrán acceder a la información de sus pedidos, consultar el estado de sus prendas, revisar su historial de servicios, realizar pagos digitales y solicitar servicios de recojo y entrega a domicilio. De esta manera, la plataforma permitirá mantener la información actualizada entre ambas partes, reducir la dependencia de registros manuales y canales de comunicación dispersos, disminuir posibles errores en la gestión y entrega de los pedidos, y facilitar el acceso a los servicios de lavandería sin que el cliente tenga que realizar todas las gestiones de manera presencial.
 </p>
 
-##### 1.2.1.6. How much
+**1.2.1.6. How much**
 <p align="justify">
 La solución adoptará un modelo de suscripción mensual dirigido principalmente a las lavanderías, permitiendo que los negocios seleccionen el plan que mejor se adapte a su tamaño, cantidad de pedidos y necesidades de gestión. Se plantean inicialmente tres alternativas, un plan gratuito, orientado a lavanderías que deseen comenzar a digitalizar sus operaciones y conocer la plataforma, un plan básico de S/ 49 mensuales, dirigido a pequeños negocios que requieren mayores capacidades de gestión y seguimiento, y un plan avanzado de S/ 99 mensuales, orientado a lavanderías con un mayor volumen de operaciones y que necesitan acceder a funcionalidades más completas. Además, el acceso de los clientes de las lavanderías no tendría un costo adicional, ya que su participación forma parte del servicio contratado por el negocio. Por lo tanto, esta estructura permitirá establecer una estrategia de monetización escalonada, facilitando la captación de nuevos usuarios mediante el plan gratuito y generando ingresos recurrentes a través de los planes de pago.
 </p>
@@ -478,17 +476,17 @@ Por tanto, nos preguntamos: ¿Cómo podríamos mejorar la comunicación y el seg
 </p>
 
 ##### 1.2.2.2. Lean UX Assumptions
-###### 1.2.2.2.1. ¿Quién es el usuario?
+**1.2.2.2.1. ¿Quién es el usuario?**
 <p align="justify">
 Los usuarios de la solución se dividen principalmente en dos grupos. El primero está conformado por los propietarios, administradores y trabajadores de pequeñas y medianas lavanderías, quienes necesitan gestionar clientes, pedidos, prendas, servicios, pagos y entregas de manera organizada. El segundo grupo corresponde a los clientes de las lavanderías, especialmente personas que cuentan con una disponibilidad limitada de tiempo para realizar tareas domésticas o que no disponen de una lavadora en sus hogares, y que buscan una alternativa más cómoda para solicitar, pagar y realizar el seguimiento de sus servicios de lavandería.
 </p>
 
-###### 1.2.2.2.2. ¿Dónde encaja nuestro producto en su trabajo o vida?
+**1.2.2.2.2. ¿Dónde encaja nuestro producto en su trabajo o vida?**
 <p align="justify">
 La solución se integra en el proceso cotidiano de gestión y prestación del servicio de lavandería. Para las lavanderías, funcionará como una herramienta central para registrar clientes y pedidos, administrar las prendas, actualizar el estado de las órdenes y consultar el historial de operaciones, reduciendo la dependencia de cuadernos, recibos, hojas de cálculo y mensajes dispersos. Para los clientes, se integrará en las actividades relacionadas con la solicitud y seguimiento del servicio, permitiéndoles consultar sus pedidos, conocer el estado de sus prendas, realizar pagos digitales y coordinar servicios de recojo y entrega a domicilio sin necesidad de realizar todas las gestiones presencialmente.
 </p>
 
-###### 1.2.2.2.3. ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?
+**1.2.2.2.3. ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 <p align="justify">
 <ul>
     <li>Resistencia a la adopción de herramientas digitales: Algunas lavanderías pueden estar acostumbradas a gestionar sus operaciones mediante métodos tradicionales y presentar dificultades para adaptarse a un nuevo sistema.<br><br>Solución: Desarrollar una interfaz sencilla e intuitiva, acompañada de un proceso de incorporación que permita al personal aprender las funciones principales rápidamente.</li><br>
@@ -498,12 +496,12 @@ La solución se integra en el proceso cotidiano de gestión y prestación del se
 </ul>
 </p>
 
-###### 1.2.2.2.4. ¿Cuándo y cómo es usado nuestro producto?
+**1.2.2.2.4. ¿Cuándo y cómo es usado nuestro producto?**
 <p align="justify">
 WashTrack será utilizada durante las diferentes etapas del servicio de lavandería, donde el personal podrá utilizarla al recibir un pedido para registrar los datos del cliente, las prendas y los servicios solicitados, durante el procesamiento para actualizar el estado de la orden, y al finalizar para verificar la información y gestionar su entrega. Por otro lado, los clientes podrán utilizarla cuando necesiten solicitar un servicio, consultar el estado de sus prendas, revisar pedidos anteriores, realizar un pago o coordinar el recojo y la entrega. En resumen, se espera que la plataforma tenga un uso recurrente, tanto durante la operación diaria de la lavandería como durante las interacciones del cliente con el servicio.
 </p>
 
-###### 1.2.2.2.5. ¿Qué características son importantes?
+**1.2.2.2.5. ¿Qué características son importantes?**
 <p align="justify">
 <ul>
     <li>Gestión de clientes y pedidos: Registro y consulta de información de clientes y órdenes.</li>
@@ -517,12 +515,12 @@ WashTrack será utilizada durante las diferentes etapas del servicio de lavander
 </ul>
 </p>
 
-###### 1.2.2.2.6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?
+**1.2.2.2.6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?**
 <p align="justify">
 En primer lugar, la plataforma debe presentar una interfaz limpia, sencilla e intuitiva, priorizando la facilidad de uso tanto para el personal de las lavanderías como para los clientes. En segundo lugar, las principales acciones, como registrar un pedido, consultar el estado de una prenda o realizar un pago, deben poder ejecutarse con pocos pasos y con información claramente organizada. También, el sistema debe proporcionar retroalimentación inmediata cuando se registre o actualice una operación y mantener sincronizada la información entre la lavandería y el cliente. Por último, debe transmitir una sensación de confianza y orden, especialmente en procesos sensibles como el registro de prendas, pagos y entrega de pedidos.
 </p>
 
-###### 1.2.2.2.7. Business Outcomes
+**1.2.2.2.7. Business Outcomes**
 <p align="justify">
 <ul>
     <li>Generación de ingresos recurrentes mediante un modelo de suscripción mensual para lavanderías.</li>
@@ -534,7 +532,7 @@ En primer lugar, la plataforma debe presentar una interfaz limpia, sencilla e in
 </ul>
 </p>
 
-###### 1.2.2.2.8. User Outcomes
+**1.2.2.2.8. User Outcomes**
 <p align="justify">
 <ul>
     <li>Ahorro de tiempo: Los clientes pueden gestionar sus servicios sin tener que realizar todas las consultas o coordinaciones presencialmente.</li>
@@ -546,7 +544,7 @@ En primer lugar, la plataforma debe presentar una interfaz limpia, sencilla e in
 </ul>
 </p>
 
-###### 1.2.2.2.9. Features
+**1.2.2.2.9. Features**
 <p align="justify">
 <ul>
     <li>Módulo de gestión de clientes: Registro, consulta y actualización de información.</li>
@@ -592,7 +590,7 @@ Creemos que ofrecer un modelo de suscripción escalonado, compuesto por un plan 
 
 ### 1.3. Segmentos objetivo
 
-#### 1.3.1. Dueños de lavanderías independientes
+#### 1.3.1. Propietarios de lavanderías independientes
 
 <p align="justify">
 Propietarios de pequeñas y medianas lavanderías que gestionan de manera directa las operaciones de sus establecimientos, incluyendo el registro de clientes, recepción de pedidos, control de prendas, actualización de estados, coordinación de entregas y seguimiento de los servicios realizados. Este segmento presenta una necesidad de mejorar la organización y centralización de sus procesos, especialmente cuando emplea métodos manuales o herramientas no integradas para administrar la información. WashTrack está orientada a facilitar la gestión operativa, reducir posibles errores y proporcionar un mayor control sobre los pedidos y servicios ofrecidos.
@@ -617,13 +615,50 @@ Personas que recurren a servicios de lavandería para el cuidado y limpieza de s
 
 #### 2.2.1. Diseño de entrevistas
 
-##### Preguntas generales
+**1. Preguntas generales**
 
-<ol>
-  <li>¿Cuál es su nombre?</li>
-  <li>¿Cuál es su edad?</li>
-  <li>¿En qué distrito reside actualmente?</li>
-</ol>
+- ¿Cuál es su nombre?
+- ¿Cuál es su edad?
+- ¿En qué distrito reside actualmente?
+
+
+**2. Primer Segmento: Propietarios de lavanderías independientes**
+- ¿Podrías contarnos brevemente cómo funciona el servicio de la lavandería desde que un cliente llega hasta que recibe sus prendas?
+- ¿Qué actividades realizas personalmente dentro del proceso de atención de los clientes?
+- ¿Qué tipos de servicios ofrecen actualmente?
+- ¿Cómo registran actualmente la información de los clientes y sus pedidos? ¿Qué herramientas utilizan para organizar esta información?(cuadernos, hojas de cálculo, WhatsApp, sistemas propios, etc.)
+- Cuando un cliente deja sus prendas, ¿qué información registran y cómo lo hacen?
+- ¿Alguna vez se ha perdido, confundido o registrado incorrectamente información de un pedido? ¿Qué ocurrió?
+- ¿Qué sucede cuando un cliente modifica su pedido después de haberlo registrado?
+- ¿Alguna vez una prenda o pedido se ha retrasado? ¿Cómo se solucionó?
+- ¿Qué ocurre cuando tienen varios pedidos con fechas de entrega cercanas?
+- ¿Cómo priorizan los pedidos que deben ser procesados o entregados?
+- ¿Cómo se comunica actualmente la lavandería con sus clientes durante el proceso?
+- ¿Con qué frecuencia los clientes se comunican para preguntar por el estado de sus prendas?
+- ¿Ofrecen actualmente recojo o entrega a domicilio? Si no, ¿por qué?
+- En caso de realizar entregas a domicilio, ¿cómo coordinan actualmente las direcciones, horarios y pedidos?
+- ¿Qué actividad te quita más tiempo durante la gestión diaria de la lavandería?
+- ¿Qué tipo de error te genera mayores inconvenientes o costos?
+
+**3. Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+- ¿Con qué frecuencia utilizas servicios de lavandería?
+- ¿Qué tipo de prendas o servicios sueles llevar a una lavandería?
+- ¿Qué factores son importantes para ti al momento de elegir una lavandería?
+- Cuéntame cómo es normalmente tu proceso desde que decides llevar ropa a una lavandería hasta que la dejas en el establecimiento. 
+- ¿Cómo sabes qué prendas dejaste y qué servicio solicitaste? 
+- ¿Alguna vez has tenido algún problema al registrar o entregar tus prendas? ¿Qué ocurrió?
+- Después de dejar tus prendas, ¿cómo sabes en qué estado se encuentra tu pedido?
+- ¿Sueles comunicarte con la lavandería para preguntar si tus prendas ya están listas?
+- ¿Con qué frecuencia realizas este tipo de consultas?
+- ¿Has tenido algún problema porque tu pedido no estuvo listo en la fecha acordada? ¿Qué sucedió?
+- ¿Qué información te gustaría poder consultar sobre un pedido mientras está siendo procesado?
+- ¿Cómo recoges normalmente tus prendas cuando el pedido está listo?
+- ¿Cuánto tiempo aproximadamente te toma realizar el traslado para recogerlas?
+- ¿Has utilizado anteriormente servicios de recojo o entrega a domicilio de lavanderías?
+- Si has utilizado este servicio, ¿qué problemas has experimentado?
+- ¿Qué parte del proceso te resulta más incómoda o te toma más tiempo? 
+- ¿Qué tendría que mejorar una lavandería para que estuvieras más satisfecho con su servicio? 
 
 
 #### 2.2.2. Registro de entrevistas
