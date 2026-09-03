@@ -642,6 +642,27 @@ Personas que recurren a servicios de lavandería para el cuidado y limpieza de s
 - ¿Qué actividad te quita más tiempo durante la gestión diaria de la lavandería?
 - ¿Qué tipo de error te genera mayores inconvenientes o costos?
 
+**3. Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+- ¿Con qué frecuencia utilizas servicios de lavandería?
+- ¿Qué tipo de prendas o servicios sueles llevar a una lavandería?
+- ¿Qué factores son importantes para ti al momento de elegir una lavandería?
+- Cuéntame cómo es normalmente tu proceso desde que decides llevar ropa a una lavandería hasta que la dejas en el establecimiento. 
+- ¿Cómo sabes qué prendas dejaste y qué servicio solicitaste? 
+- ¿Alguna vez has tenido algún problema al registrar o entregar tus prendas? ¿Qué ocurrió?
+- Después de dejar tus prendas, ¿cómo sabes en qué estado se encuentra tu pedido?
+- ¿Sueles comunicarte con la lavandería para preguntar si tus prendas ya están listas?
+- ¿Con qué frecuencia realizas este tipo de consultas?
+- ¿Has tenido algún problema porque tu pedido no estuvo listo en la fecha acordada? ¿Qué sucedió?
+- ¿Qué información te gustaría poder consultar sobre un pedido mientras está siendo procesado?
+- ¿Cómo recoges normalmente tus prendas cuando el pedido está listo?
+- ¿Cuánto tiempo aproximadamente te toma realizar el traslado para recogerlas?
+- ¿Has utilizado anteriormente servicios de recojo o entrega a domicilio de lavanderías?
+- Si has utilizado este servicio, ¿qué problemas has experimentado?
+- ¿Qué parte del proceso te resulta más incómoda o te toma más tiempo? 
+- ¿Qué tendría que mejorar una lavandería para que estuvieras más satisfecho con su servicio? 
+
+
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
 
