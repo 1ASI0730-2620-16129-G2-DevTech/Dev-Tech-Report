@@ -616,6 +616,16 @@ Personas que recurren a servicios de lavandería para el cuidado y limpieza de s
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
+
+##### Preguntas generales
+
+<ol>
+  <li>¿Cuál es su nombre?</li>
+  <li>¿Cuál es su edad?</li>
+  <li>¿En qué distrito reside actualmente?</li>
+</ol>
+
+
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
 
