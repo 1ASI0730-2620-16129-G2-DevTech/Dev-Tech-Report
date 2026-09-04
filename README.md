@@ -986,8 +986,82 @@ La información se estructura mediante una jerarquía clara y una categorizació
 
 
 * 4.2.3. SEO Tags and Meta Tags
+<p>Para mejorar la visibilidad de WashTrack en los motores de búsqueda y atraer a los usuarios adecuados, se han definido los siguientes SEO Tags y Meta Tags para las principales páginas de la experiencia, considerando tanto el sitio web estático que es la Landing Page como la Web Application. Para cada página se especifican los valores correspondientes a Title, Meta Description, Keywords y Author.</p>
+
+
+#### Landing Page
+<p></p>
+
+- <b>Title:</b> WashTrack - Gestión Inteligente y Monitoreo IoT para Lavanderías
+- <b>Meta Description:</b> WashTrack conecta pedidos, sensores IoT y pagos en una sola plataforma. Digitaliza tu lavandería tradicional con alertas automáticas, seguimiento en vivo y control total de la operación.
+- <b>Keywords:</b> lavandería digital, gestión de lavanderías, monitoreo IoT, seguimiento en tiempo real, software para lavanderías, recojo a domicilio, WashTrack.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Dashboard / Inicio
+<p></p>
+
+- <b>Title:</b> Dashboard de WashTrack - Resumen de Operaciones y Estado de Lavadoras
+- <b>Meta Description:</b> Accede al resumen general de tu actividad de lavado, estado operativo de las máquinas y métricas clave de tu negocio en tiempo real.
+- <b>Keywords:</b> dashboard de lavandería, panel hoy, estado de lavadoras, control operativo, WashTrack app.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Características
+<p></p>
+
+- <b>Title:</b> Características de WashTrack - Todo lo que tu Lavandería Necesita
+- <b>Meta Description:</b> Explora las soluciones de WashTrack: gestión integral de pedidos, seguimiento en vivo de prendas, monitoreo IoT predictivo y logística de pagos digitales.
+- <b>Keywords:</b> características de WashTrack, gestión de pedidos, seguimiento en vivo, monitoreo IoT, logística y pagos.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Seguimiento en Vivo
+<p></p>
+
+- <b>Title:</b> Seguimiento en Vivo de Pedidos en WashTrack - Estado Exacto de tus Prendas
+- <b>Meta Description:</b> Conoce el estado exacto de tu ropa sin necesidad de llamar. Visualiza las etapas desde la recepción y clasificación hasta el lavado, secado y entrega.
+- <b>Keywords:</b> seguimiento en vivo, estado de pedidos, lavado de ropa, etapas de lavado, notificaciones automáticas.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Sobre Nosotros
+<p></p>
+
+- <b>Title:</b> Sobre Nosotros - Conoce al Equipo de DevTech detrás de WashTrack
+- <b>Meta Description:</b> Somos DevTech, estudiantes de la UPC construyendo tecnología para negocios tradicionales en Latinoamérica. Descubre nuestra misión, visión y valores.
+- <b>Keywords:</b> DevTech, sobre nosotros, equipo UPC, tecnología para negocios tradicionales, transformación digital.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Planes y Contacto
+<p></p>
+
+- <b>Title:</b> Planes y Precios de WashTrack - Digitaliza tu Negocio de Lavandería
+- <b>Meta Description:</b> Elige el plan ideal para digitalizar tu lavandería o solicita más información completando nuestro formulario de atención para dueños de negocios y clientes.
+- <b>Keywords:</b> planes de WashTrack, precios, digitalizar lavandería, contacto, formulario de atención.
+- <b>Author:</b> DevTech Team
+
+<p></p>
 
 * 4.2.4. Searching Systems
+<p>El sistema de búsqueda diseñado para <b>WashTrack</b> tiene como objetivo facilitar a los usuarios y administradores la localización eficiente de información relacionada con la gestión de pedidos, el estado de las prendas, las alertas de las lavadoras inteligentes y los reportes operativos. Para ello, se emplean campos de búsqueda y filtros que permiten reducir la cantidad de información mostrada y encontrar rápidamente los datos relevantes según el perfil del usuario y la actividad que desea consultar o gestionar.</p>
+
+| <b>Nombre del Filtro</b> | <b>Descripción</b> |
+|---|---|
+| <b>Buscar pedidos por código</b> | Permite ingresar el código de un pedido para localizar rápidamente la información correspondiente y consultar su estado actual. |
+| <b>Filtrar pedidos por estado</b> | Permite organizar y visualizar los pedidos según su estado dentro del proceso de servicio, facilitando la identificación del progreso de cada pedido. |
+| <b>Filtrar pedidos por fecha</b> | Permite consultar pedidos correspondientes a un periodo determinado, facilitando la búsqueda de información específica dentro del historial del servicio. |
+| <b>Filtrar pedidos por prioridad</b> | Permite identificar los pedidos asociados al <b>plan VIP</b>, los cuales cuentan con prioridad en la atención y procesamiento del servicio. |
+| <b>Consultar seguimiento del pedido</b> | Permite acceder a la información relacionada con el progreso del pedido y visualizar las diferentes etapas del proceso de lavado de manera ordenada. |
+
+<p></p>
+
 * 4.2.5. Navigation Systems
 
 ### 4.3. Landing Page UI Design
