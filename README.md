@@ -825,6 +825,51 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 
 
 * 4.1.2. Web Style Guidelines
+<p>La versión web de WashTrack ha sido diseñada bajo un enfoque Responsive-First y modular, buscando garantizar una experiencia consistente y accesible para administradores de lavanderías y usuarios finales, independientemente del dispositivo utilizado. Los estándares visuales y de interacción definidos para la interfaz son los siguientes:</p>
+
+<ul>
+  <li>
+    <b>Diseño Responsivo (Responsive Layout):
+    </b><br/>
+    <p>La interfaz utiliza una estructura flexible que permite adaptar la distribución y el tamaño de los componentes según el dispositivo. Se consideran diferentes puntos de quiebre (breakpoints) para dispositivos móviles, tabletas y pantallas de escritorio, asegurando que los contenidos, elementos visuales y controles táctiles mantengan una correcta distribución y legibilidad.</p>
+  </li>
+  <li>
+    <b>Sistema de Navegación (Navbar & Menús):
+    </b><br/>
+    <p>La barra de navegación superior (Navbar) permite acceder de forma rápida a las principales funcionalidades de la plataforma, como Inicio, Monitoreo de Lavadoras, Reportes, Alertas IoT y Soporte. En dispositivos móviles, la navegación se adapta mediante un menú tipo hamburguesa, reduciendo la cantidad de elementos visibles y facilitando su interacción.</p>
+  </li>
+  <li>
+    <b>Sistema de Espaciado y Distribución:
+    </b><br/>
+    <p>Los contenidos se organizan mediante una estructura modular basada en columnas, márgenes y espacios consistentes entre componentes. Se mantiene una separación visual adecuada entre títulos, textos, botones, tarjetas y secciones para evitar la saturación de información y facilitar la lectura.</p>
+  </li>
+   <li>
+    <b>Componentes y Botones:
+    </b><br/>
+    <p>Los botones y elementos interactivos mantienen una apariencia consistente con la identidad visual de WashTrack. Los botones principales utilizan el color primario de la marca, mientras que los elementos secundarios emplean colores complementarios. Se consideran diferentes estados de interacción, como estado normal, hover, focus y disabled, proporcionando una respuesta visual clara ante las acciones del usuario.</p>
+  </li>
+  <li>
+    <b>Paneles Modulares y Visualización de Datos:
+    </b><br/>
+    <p>La información se presenta mediante tarjetas con bordes redondeados y fondos claros sobre superficies en tonos celestes suaves. Este sistema permite organizar métricas, estados de las máquinas, alertas y gráficos de manera independiente, facilitando la lectura y el monitoreo de la información.</p>
+  </li>
+  <li>
+    <b>Estados, Alertas y Retroalimentación:
+    </b><br/>
+    <p>El sistema utiliza colores diferenciados para comunicar estados y acciones. El verde representa operaciones exitosas o máquinas en línea, mientras que el rojo y naranja se utilizan para alertas, errores o situaciones que requieren atención. De esta manera, la información crítica puede identificarse rápidamente.</p>
+  </li>
+  <li>
+    <b>Transiciones y Animaciones:
+    </b><br/>
+    <p>Las transiciones se utilizan de manera moderada para acompañar cambios de estado, apertura de modales, despliegue de menús y acciones interactivas. Se emplean animaciones suaves para evitar cambios abruptos y mantener una experiencia fluida sin distraer al usuario.</p>
+  </li>
+  <li>
+    <b>Consistencia Visual:
+    </b><br/>
+    <p>Los componentes mantienen patrones visuales consistentes en toda la plataforma, utilizando la misma paleta de colores, tipografías, bordes, botones, iconografía y estilos de interacción definidos previamente en el sistema de diseño. Esto permite que el usuario reconozca y comprenda los elementos de la interfaz con mayor facilidad.</p>
+  </li>
+</ul>
+<p>Las decisiones anteriores se representan mediante las diferentes vistas de la interfaz web de WashTrack, incluyendo la versión de escritorio, adaptación para dispositivos móviles, sistema de navegación, tarjetas informativas, botones, estados y paneles de monitoreo.</p>
 
 ### 4.2. Information Architecture
 
