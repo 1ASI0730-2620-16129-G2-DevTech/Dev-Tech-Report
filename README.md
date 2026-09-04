@@ -756,6 +756,73 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 </div>
   </li>
 </ul>
+<ul>
+  <li>
+    <b>Colors o Paleta de colores:</b><br/>
+    <p>
+      La paleta de colores de WashTrack está diseñada para transmitir limpieza,
+      confianza, modernidad y eficiencia tecnológica. Los colores se organizan
+      según su función dentro de la interfaz, manteniendo una identidad visual
+      coherente y una experiencia agradable para el usuario.
+    </p>
+     <ul>
+      <li>
+        <b>Color Primario:</b> Azul Oscuro / Marino
+        (<code>#123B7A</code> / <code>#0B192C</code>):<br/>
+        Se utiliza en la barra de navegación superior, textos principales,
+        encabezados y botones de llamada a la acción (CTA). Transmite
+        confianza, solidez y profesionalismo.
+      </li>
+      <li>
+        <b>Color Secundario:</b> Celeste Brillante / Azul Interactivo
+        (<code>#087FEA</code> / <code>#22B8F0</code>):<br/>
+        Se emplea en elementos interactivos, enlaces activos, bordes de enfoque
+        (<i>focus</i>) y gráficos estadísticos destacados. Aporta dinamismo,
+        frescura y modernidad a la interfaz.
+      </li>
+      <li>
+        <b>Fondos y Superficies:</b> Celeste Suave / Blanco
+        (<code>#EAF8FF</code> / <code>#FFFFFF</code>):<br/>
+        Se aplican en tarjetas, contenedores, secciones principales
+        (<i>hero sections</i>) y fondos generales. Estos colores aportan
+        amplitud visual, limpieza y frescura, conceptos relacionados con el
+        servicio de lavandería.
+      </li>
+      <li>
+        <b>Colores de Soporte y Estados:</b>
+        <ul>
+          <li>
+            <b>Verde Éxito (<code>#1A8A5F</code>):</b>
+            Se utiliza para indicadores como "En línea", pedidos completados
+            y métricas positivas.
+          </li>
+          <li>
+            <b>Rojo Alerta (<code>#C2452F</code>):</b>
+            Se utiliza para notificaciones críticas y situaciones que requieren
+            atención inmediata.
+          </li>
+          <li>
+            <b>Naranja Alerta (<code>#D97706</code>):</b>
+            Se emplea para avisos de mantenimiento de las lavadoras y alertas
+            IoT que requieren revisión por parte del administrador.
+          </li>
+        </ul>
+      </li>
+    </ul>
+     <p>
+      En conjunto, esta paleta permite diferenciar visualmente las funciones y
+      estados de la plataforma, manteniendo una identidad asociada con la
+      <b>limpieza, tecnología, confianza y eficiencia</b>.
+    </p>
+  </li>
+</ul>
+<div align="center">
+    <img src="assets/PaletaColores.PNG" alt="Paleta de Colores" width="400"/>
+</div>
+      
+
+
+
 
 * 4.1.2. Web Style Guidelines
 
