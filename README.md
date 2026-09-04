@@ -831,51 +831,162 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
   <li>
     <b>Diseño Responsivo (Responsive Layout):
     </b><br/>
-    <p>La interfaz utiliza una estructura flexible que permite adaptar la distribución y el tamaño de los componentes según el dispositivo. Se consideran diferentes puntos de quiebre (breakpoints) para dispositivos móviles, tabletas y pantallas de escritorio, asegurando que los contenidos, elementos visuales y controles táctiles mantengan una correcta distribución y legibilidad.</p>
+    <p>La interfaz utiliza una estructura flexible que permite adaptar la distribución y el tamaño de los componentes según el dispositivo. Se consideran diferentes puntos de quiebre que son los breakpoints para dispositivos móviles, tabletas y pantallas de escritorio, asegurando que los contenidos, elementos visuales y controles táctiles mantengan una correcta distribución y legibilidad.</p>
   </li>
+  <table align="center" style="border: none;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/responsive1.png" alt="Responsive 1" width="400"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/responsive2.png" alt="Responsive 2" width="400"/>
+    </td>
+  </tr>
+</table>
   <li>
     <b>Sistema de Navegación (Navbar & Menús):
     </b><br/>
     <p>La barra de navegación superior (Navbar) permite acceder de forma rápida a las principales funcionalidades de la plataforma, como Inicio, Monitoreo de Lavadoras, Reportes, Alertas IoT y Soporte. En dispositivos móviles, la navegación se adapta mediante un menú tipo hamburguesa, reduciendo la cantidad de elementos visibles y facilitando su interacción.</p>
   </li>
+  <div align="center">
+    <img src="assets/SN1.PNG" alt="SN1" width="500"/>
+</div>
+<br>
+<div align="center">
+    <img src="assets/SN2.PNG" alt="SN2" width="500"/>
+</div>
   <li>
     <b>Sistema de Espaciado y Distribución:
     </b><br/>
-    <p>Los contenidos se organizan mediante una estructura modular basada en columnas, márgenes y espacios consistentes entre componentes. Se mantiene una separación visual adecuada entre títulos, textos, botones, tarjetas y secciones para evitar la saturación de información y facilitar la lectura.</p>
+    <p>Los contenidos se organizan mediante una <b>estructura modular basada en columnas, márgenes y espacios consistentes entre componentes.</b> Se mantiene una separación visual adecuada entre títulos, textos, botones, tarjetas y secciones para evitar la saturación de información y facilitar la lectura.</p>
   </li>
    <li>
     <b>Componentes y Botones:
     </b><br/>
     <p>Los botones y elementos interactivos mantienen una apariencia consistente con la identidad visual de WashTrack. Los botones principales utilizan el color primario de la marca, mientras que los elementos secundarios emplean colores complementarios. Se consideran diferentes estados de interacción, como estado normal, hover, focus y disabled, proporcionando una respuesta visual clara ante las acciones del usuario.</p>
   </li>
+  <table align="center" style="border: none;">
+  <!-- Par 1: bot1 y bot2 -->
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot1.png" alt="Bot 1" width="400"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot2.png" alt="Bot 2" width="400"/>
+    </td>
+  </tr>
+  <!-- Par 2: bot3 y bot4 -->
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot3.png" alt="Bot 3" width="400"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot4.png" alt="Bot 4" width="400"/>
+    </td>
+  </tr>
+  <!-- Par 3: bot5 y bot6 -->
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot5.png" alt="Bot 5" width="400"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot6.png" alt="Bot 6" width="400"/>
+    </td>
+  </tr>
+</table>
   <li>
     <b>Paneles Modulares y Visualización de Datos:
     </b><br/>
     <p>La información se presenta mediante tarjetas con bordes redondeados y fondos claros sobre superficies en tonos celestes suaves. Este sistema permite organizar métricas, estados de las máquinas, alertas y gráficos de manera independiente, facilitando la lectura y el monitoreo de la información.</p>
   </li>
+  <div align="center">
+    <img src="assets/Panel.png" alt="Panel" width="300"/>
+</div>
   <li>
     <b>Estados, Alertas y Retroalimentación:
     </b><br/>
     <p>El sistema utiliza colores diferenciados para comunicar estados y acciones. El verde representa operaciones exitosas o máquinas en línea, mientras que el rojo y naranja se utilizan para alertas, errores o situaciones que requieren atención. De esta manera, la información crítica puede identificarse rápidamente.</p>
   </li>
+   <div align="center">
+    <img src="assets/coloresTipo.png" alt="Panel" width="300"/>
+</div>
   <li>
     <b>Transiciones y Animaciones:
     </b><br/>
-    <p>Las transiciones se utilizan de manera moderada para acompañar cambios de estado, apertura de modales, despliegue de menús y acciones interactivas. Se emplean animaciones suaves para evitar cambios abruptos y mantener una experiencia fluida sin distraer al usuario.</p>
+    <p>Las transiciones se utilizan de manera moderada para acompañar cambios de estado, apertura de modales, despliegue de menús y acciones interactivas. <b>Se emplean animaciones suaves para evitar cambios abruptos y mantener una experiencia fluida </b>sin distraer al usuario.</p>
   </li>
   <li>
     <b>Consistencia Visual:
     </b><br/>
     <p>Los componentes mantienen patrones visuales consistentes en toda la plataforma, utilizando la misma paleta de colores, tipografías, bordes, botones, iconografía y estilos de interacción definidos previamente en el sistema de diseño. Esto permite que el usuario reconozca y comprenda los elementos de la interfaz con mayor facilidad.</p>
   </li>
+  <div align="center">
+    <img src="assets/conVis1.png" alt="Panel" width="300"/>
+</div>
 </ul>
-<p>Las decisiones anteriores se representan mediante las diferentes vistas de la interfaz web de WashTrack, incluyendo la versión de escritorio, adaptación para dispositivos móviles, sistema de navegación, tarjetas informativas, botones, estados y paneles de monitoreo.</p>
+<p>Todas ellas se representan mediante las diferentes vistas de la interfaz web de WashTrack, incluyendo la versión de escritorio, adaptación para dispositivos móviles, sistema de navegación, tarjetas informativas, botones, estados y paneles de monitoreo.</p>
 
 ### 4.2. Information Architecture
 
-* 4.2.1. Organization Systems
+
+La arquitectura de la información de **WashTrack** busca ofrecer una experiencia fluida e intuitiva para los diferentes perfiles de usuarios de la plataforma, como clientes y administradores de lavanderías. La organización y el etiquetado de los contenidos se diseñaron para guiar al usuario de manera eficiente desde el acceso inicial y registro hasta el monitoreo de las lavadoras, la consulta del historial de ciclos de lavado y el acceso a las funcionalidades relacionadas con el sistema IoT.
+
+La información se estructura mediante una jerarquía clara y una categorización modular, permitiendo que cada usuario encuentre rápidamente las funcionalidades correspondientes a su perfil. Asimismo, la navegación <b>sigue una secuencia lógica que facilita el acceso a las principales secciones del sistema</b>, tales como la barra de navegación superior, la sección de características, que presenta el seguimiento en tiempo real de las seis etapas del proceso de lavado, la sección orientada a los diferentes perfiles de usuario ("Para quién"), la presentación institucional ("Sobre nosotros") y el formulario de atención ubicado al final de la página. Esta organización <b>permite reducir la carga cognitiva y mejorar la experiencia de uso.</b>
+
+* 4.2.1. Organization Systems 
+<p></p>
+
+- <b>Organización jerárquica (Visual Hierarchy):</b><br/>
+  Se aplica principalmente en la página principal y en la presentación de los contenidos informativos. La información se organiza de acuerdo con diferentes niveles de importancia, utilizando títulos, subtítulos, tamaños de texto, colores, espacios y botones para dirigir la atención del usuario hacia los elementos principales. Por ejemplo, en la página de inicio se prioriza la propuesta de valor de WashTrack y posteriormente se presentan sus características y demás contenidos.
+<p></p>
+
+- <b>Organización secuencial (Step-by-Step):</b><br/>
+  Se utiliza en la representación del proceso de seguimiento del servicio de lavado. Las seis etapas del proceso se presentan siguiendo un orden determinado, permitiendo que el usuario comprenda progresivamente el estado de su ropa y conozca en qué etapa se encuentra. Este sistema resulta especialmente útil para representar procesos que requieren una secuencia lógica.
+<p></p>
+
+- <b>Organización matricial:</b><br/>
+  Se utiliza para relacionar las funcionalidades de WashTrack con los diferentes perfiles de usuarios. La información puede organizarse considerando tanto el tipo de usuario como las necesidades o funcionalidades disponibles para cada perfil, facilitando la identificación de los servicios que corresponden a cada audiencia.
+<p></p>
+
+- <b>Categorización por tópicos:</b><br/>
+  Se utiliza para agrupar la información de acuerdo con su temática. De esta manera, los contenidos se distribuyen en secciones como características de la plataforma, seguimiento del proceso, información sobre WashTrack y atención al usuario, evitando mezclar contenidos de diferente naturaleza.
+<p></p>
+
+- <b>Categorización según audiencia:</b><br/>
+  Se aplica principalmente en la sección <b>“Para quién”</b>, donde la información se presenta de acuerdo con los diferentes perfiles a los que está dirigida la solución. Esta organización permite que cada grupo de usuarios identifique rápidamente los beneficios y funcionalidades relevantes para sus necesidades.
+<p></p>
+
+- <b>Categorización cronológica:</b><br/>
+  Se aplica principalmente al seguimiento del proceso de lavado y al historial de ciclos. La información relacionada con las etapas del servicio se presenta siguiendo un orden temporal, permitiendo comprender la evolución del proceso desde su inicio hasta su finalización.
+
 * 4.2.2. Labeling Systems
+<p>Los sistemas de etiquetado en WashTrack han sido diseñados bajo principios de simplicidad, concisión y claridad para representar los conjuntos de información y sus asociaciones sin generar confusión en los visitantes y usuarios. Las etiquetas emplean el mínimo número de palabras posibles, utilizando una terminología intuitiva y estandarizada que facilita la navegación tanto en la versión pública como en el panel operativo del sistema.</p>
+
+<b>*Landing Page*</b>
+| **Etiqueta** | **Descripción** |
+|---|---|
+| **Inicio** | Presenta la propuesta de valor principal de WashTrack mediante una interfaz visual y llamadas a la acción directas. |
+| **Características** | Agrupa de forma modular las funcionalidades clave del servicio, como pedidos, seguimiento, IoT y pagos. |
+| **Sobre nosotros** | Muestra la identidad corporativa de DevTech, su misión y sus valores orientados a la transformación digital. |
+| **Para quién** | Segmenta los beneficios y soluciones dirigidas tanto a dueños de lavanderías como a clientes finales. |
+| **Planes** | Detalla las opciones de servicio e integración tecnológica disponibles para los negocios. |
+| **Comenzar ahora** | Botón de llamada a la acción (CTA) principal para el registro o acceso directo al formulario de atención. |
+
+<b>*App Web*</b>
+
+| **Etiqueta** | **Descripción** |
+|---|---|
+| **Panel Hoy / Dashboard** | Presenta una vista general del estado operativo actual, métricas clave y alertas de lavadoras en tiempo real. |
+| **Monitoreo IoT** | Permite visualizar el estado, rendimiento y alertas predictivas de las lavadoras conectadas. |
+| **Pedidos** | Permite gestionar órdenes, clientes, estados de entrega y filtrar información según las etapas del proceso de lavado. |
+| **Seguimiento en Vivo** | Muestra de manera secuencial las seis etapas del proceso de lavado para facilitar el control del usuario. |
+| **Reportes** | Presenta el historial de operaciones, métricas de rendimiento y estadísticas de la lavandería. |
+| **Configuración** | Permite gestionar los ajustes de cuenta, preferencias del usuario y parámetros operativos del sistema. |
+| **Cerrar Sesión** | Permite salir de forma segura de la plataforma para proteger los datos del negocio y del usuario. |
+
+
 * 4.2.3. SEO Tags and Meta Tags
+
 * 4.2.4. Searching Systems
 * 4.2.5. Navigation Systems
 
