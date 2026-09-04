@@ -723,11 +723,40 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>Finalmente, el nombre WashTrack se presenta mediante una <b>tipografía amigable y dinámica</b>, buscando facilitar su reconocimiento y transmitir cercanía e innovación. El eslogan <b>“TU ROPA, LISTA EN MENOS TIEMPO”</b> complementa la identidad de la marca al comunicar de manera directa su principal beneficio que es ofrecer un servicio eficiente, rápido y fácil de gestionar, logrando una identidad que permite asociar fácilmente a WashTrack con los conceptos de <b>lavandería, tecnología, seguimiento y rapidez.</b></p>
   </li>
 </ul>
-<p>
+
 <div align="center">
-  <img src="assets/Logo WachTrack" alt="Logotipo de WashTrack" width="500"/>
+  <img src="assets/Logo WachTrack.png" alt="Logotipo de WashTrack" width="200"/>
 </div>
-</p>
+
+<ul>
+  <li>
+    <b>Typography (Tipografía):
+    </b><br/>
+    <p>WashTrack utiliza una jerarquía tipográfica clara y consistente para <b>garantizar una adecuada legibilidad</b> tanto en interfaces de escritorio como en dispositivos móviles. Se emplea <b>Poppins como tipografía principal</b> para los elementos generales de la interfaz, como menús, botones, etiquetas, párrafos y textos secundarios. Su diseño limpio y moderno <b>permite transmitir una identidad amigable, tecnológica y fácil de utilizar.</b></p>
+    <p>Para los títulos principales, encabezados y elementos visuales destacados, se utiliza <b>Playfair Display como tipografía complementaria.</b> Su estilo elegante con serifas genera un contraste visual con la simplicidad de Poppins, permitiendo establecer una mayor jerarquía y otorgando personalidad a la identidad de WashTrack.</p>
+    <p>La combinación de <b>Poppins y Playfair Display permite equilibrar funcionalidad e identidad visual.</b> Poppins prioriza la claridad y facilidad de lectura, mientras que Playfair Display aporta elegancia y énfasis a los contenidos importantes. Esta jerarquía facilita que el usuario identifique rápidamente la información relevante sin sobrecargar visualmente la interfaz.</p>
+    <b>Escala y Métricas:</b>
+    <p>Se establece una escala tipográfica basada en un tamaño de referencia de 16px, utilizando una escala de 1.25. El interlineado o line-height se establece en 1.2 para los títulos y elementos destacados, mientras que los textos de lectura pueden utilizar un interlineado mayor para mejorar la legibilidad y proporcionar un adecuado respiro visual.</p>
+    <b>Weights:</b>
+<ul>
+    <li>Delgado (Thin)</li>
+    <li>Extra Fino (Extra Light)</li>
+    <li>Fino (Light)</li>
+    <li>Normal (Regular)</li>
+    <li>Mediano (Medium)</li>
+    <li>Semi Negrita (Semi Bold)</li>
+    <li>Negrita (Bold)</li>
+    <li>Extra Negrita (Extra Bold)</li>
+    <li>Grueso (Black)</li>
+  
+</ul>
+<b>Nomenclatura:</b>
+<div align="center">
+    <img src="assets/nomenclatura.png" alt="Nomenclatura" width="300"/>
+</div>
+  </li>
+</ul>
+
 * 4.1.2. Web Style Guidelines
 
 ### 4.2. Information Architecture
