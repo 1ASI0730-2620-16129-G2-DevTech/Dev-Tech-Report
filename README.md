@@ -1063,6 +1063,68 @@ La información se estructura mediante una jerarquía clara y una categorizació
 <p></p>
 
 * 4.2.5. Navigation Systems
+<p>El sistema de navegación de WashTrack ha sido diseñado para guiar de manera intuitiva y fluida a los usuarios, tanto clientes finales como dueños de lavanderías, a través de la Landing Page y la aplicación web. Para ello, se combinan diferentes técnicas de navegación y recorridos que permiten al usuario encontrar la información necesaria, interactuar con las funcionalidades y alcanzar sus objetivos con el menor esfuerzo posible.</p>
+
+#### Landing Page o Sitio Web 
+
+- <b>Estructura y Recorrido:</b><br/>
+  La navegación se plantea mediante un recorrido vertical de una sola página, complementado por una barra de navegación superior. El usuario comienza visualizando la propuesta de valor principal y continúa hacia las características del servicio, el funcionamiento del proceso, los beneficios según su perfil en la sección <b>“Para quién”</b>, los planes disponibles y finalmente el formulario de atención.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El visitante puede desplazarse libremente por las diferentes secciones y utilizar los botones de llamada a la acción (<i>Call to Action</i>), como <b>“Comenzar ahora”</b>, para acceder al registro o formulario de atención según su interés.
+<p></p>
+
+#### App Web - Panel Hoy o Dashboard 
+
+- <b>Estructura y Recorrido:</b><br/>
+  El Dashboard funciona como punto principal de acceso después del inicio de sesión. La información se organiza mediante accesos directos y tarjetas visuales que permiten acceder rápidamente a las diferentes funcionalidades de la aplicación.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El usuario consulta un resumen de su actividad y puede dirigirse hacia las secciones de pedidos, seguimiento, reportes u otras funcionalidades disponibles. En el caso del <b>plan VIP</b>, se contempla la identificación visual de los pedidos que requieren atención prioritaria.
+<p></p>
+
+#### Sección: Pedidos
+
+- <b>Estructura y Recorrido:</b><br/>
+  Presenta la información de los pedidos de manera organizada, permitiendo utilizar opciones de búsqueda y filtrado para localizar órdenes según diferentes criterios, como código, estado, fecha o prioridad.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El usuario selecciona un pedido para consultar su información y verificar el estado en el que se encuentra. Asimismo, los pedidos asociados al <b>plan VIP</b> pueden identificarse mediante un indicador de prioridad.
+<p></p>
+
+#### Sección: Seguimiento en Vivo
+
+- <b>Estructura y Recorrido:</b><br/>
+  La navegación se organiza mediante un flujo visual secuencial (<i>step-by-step</i>) que representa las seis etapas del proceso: <b>Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo</b>.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El cliente consulta el progreso de su pedido y reconoce visualmente la etapa actual en la que se encuentra su ropa. Para los usuarios con plan VIP, se contempla la identificación de la prioridad del servicio dentro del seguimiento.
+<p></p>
+
+#### Sección: Reportes
+
+- <b>Estructura y Recorrido:</b><br/>
+  La sección organiza la información histórica mediante filtros temporales, como día, mes o año, permitiendo acceder de manera ordenada a los registros y estadísticas disponibles.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El administrador puede consultar información histórica para analizar el funcionamiento de la lavandería, mientras que el cliente puede acceder a información relacionada con sus servicios realizados, de acuerdo con las funcionalidades definidas para cada perfil.
+<p></p>
+
+#### Sección: Configuración
+
+- <b>Estructura y Recorrido:</b><br/>
+  La sección permite organizar las opciones relacionadas con la cuenta, los datos del perfil, las preferencias y la gestión del plan contratado.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El usuario puede consultar o modificar la información disponible de su cuenta y gestionar las opciones relacionadas con su suscripción. Finalmente, puede utilizar la opción <b>“Cerrar Sesión”</b> para salir de manera segura de la plataforma.
+<p></p>
+
 
 ### 4.3. Landing Page UI Design
 
