@@ -157,11 +157,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
       <td>
-        <b>Pérez Vásquez, Ariana Valeria</b><br>
-        <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <p><b>Pérez Vásquez, Ariana Valeria</b><br></p>
+        <p><em>Elaboré el Capítulo IV del proyecto WashTrack, desarrollando las Style Guidelines, donde se establecieron los lineamientos generales y web para mantener una interfaz consistente, clara, accesible y fácil de utilizar.</em></p>
+        <em>Desarrollé la Information Architecture, la Landing Page UI, elaborando el wireframe y mock-up de la página principal de WashTrack, considerando la distribución de los elementos, jerarquía visual, navegación y presentación de la propuesta de valor del producto.</em>
+        <br>
+        <br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -200,11 +200,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
       <td>
-        <b>Pérez Vásquez, Ariana Valeria</b><br>
-        <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <p><b>Pérez Vásquez, Ariana Valeria</b><br></p>
+        <em>Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance</em>
+        <em><b></b></em>
+        <p><br>Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas <br></p>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -285,17 +284,17 @@ Nuestros valores son:
     <td rowspan="4" align="center">
       <img src="assets/foto_nombre.PNG" alt="Foto de" width="500"/>
     </td>
-    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+    <td><b>Nombre:</b> Perez Vasquez Ariana Valeria</td>
   </tr>
   <tr>
-    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+    <td><b>Código:</b> U20241D338</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      Breve descripcion
+      Tengo un fuerte interés en el <b>desarrollo de soluciones tecnológicas que permitan optimizar procesos y mejorar la experiencia de los usuarios</b>. Me considero una persona <b>responsable, organizada y comprometida </b>con las actividades que realizo. Además, me interesa el diseño de interfaces y la organización de la información, buscando que las soluciones desarrolladas sean claras, funcionales y fáciles de utilizar.
       <br/><br/>
-      Dentro del equipo... (que funcion cumples)
+      Dentro del equipo, participo en el <b>desarrollo y diseño de la propuesta de WashTrack</b>, aportando principalmente en la elaboración de las Style Guidelines, la arquitectura de información y el diseño de la Landing Page. Mi objetivo es contribuir a que la plataforma presente una estructura visual coherente, una navegación sencilla y una experiencia adecuada tanto para los negocios de lavandería como para sus clientes. Asimismo, valoro el trabajo colaborativo y la comunicación con los demás integrantes para lograr una propuesta integrada y cumplir con los objetivos establecidos del proyecto.
     </td>
   </tr>
   <tr>
