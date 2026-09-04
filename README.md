@@ -64,7 +64,10 @@
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
 | 1.0.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
 | 1.2.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
+| 1.2.0 | 04/09/2026 | Ariana Perez | Agregó su parte en student Outcome y desarrollo avance del capítulo IV |
+
 ---
+
 
 ## Project Report Collaboration Insights
 
@@ -157,11 +160,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
       <td>
-        <b>Pérez Vásquez, Ariana Valeria</b><br>
-        <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <p><b>Pérez Vásquez, Ariana Valeria</b><br></p>
+        <p><em>Elaboré el Capítulo IV del proyecto WashTrack, desarrollando las Style Guidelines, donde se establecieron los lineamientos generales y web para mantener una interfaz consistente, clara, accesible y fácil de utilizar.</em></p>
+        <em>Desarrollé la Information Architecture, la Landing Page UI, elaborando el wireframe y mock-up de la página principal de WashTrack, considerando la distribución de los elementos, jerarquía visual, navegación y presentación de la propuesta de valor del producto.</em>
+        <br>
+        <br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -200,11 +203,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
       <td>
-        <b>Pérez Vásquez, Ariana Valeria</b><br>
-        <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <p><b>Pérez Vásquez, Ariana Valeria</b><br></p>
+        <em>Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance</em>
+        <em><b></b></em>
+        <p><br>Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas <br></p>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -283,19 +285,19 @@ Nuestros valores son:
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_nombre.PNG" alt="Foto de" width="500"/>
+      <img src="assets/ArianaPerez.jpeg" alt="Foto de Ariana" width="800"/>
     </td>
-    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+    <td><b>Nombre:</b> Perez Vasquez Ariana Valeria</td>
   </tr>
   <tr>
-    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+    <td><b>Código:</b> U20241D338</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      Breve descripcion
+      Tengo un fuerte interés en el <b>desarrollo de soluciones tecnológicas que permitan optimizar procesos y mejorar la experiencia de los usuarios</b>. Me considero una persona <b>responsable, organizada y comprometida </b>con las actividades que realizo. Además, me interesa el diseño de interfaces y la organización de la información, buscando que las soluciones desarrolladas sean claras, funcionales y fáciles de utilizar.
       <br/><br/>
-      Dentro del equipo... (que funcion cumples)
+      Dentro del equipo, participo en el <b>desarrollo y diseño de la propuesta de WashTrack</b>, aportando principalmente en la elaboración de las Style Guidelines, la arquitectura de información y el diseño de la Landing Page. Mi objetivo es contribuir a que la plataforma presente una estructura visual coherente, una navegación sencilla y una experiencia adecuada tanto para los negocios de lavandería como para sus clientes. Asimismo, valoro el trabajo colaborativo y la comunicación con los demás integrantes para lograr una propuesta integrada y cumplir con los objetivos establecidos del proyecto.
     </td>
   </tr>
   <tr>
@@ -705,8 +707,27 @@ Personas que recurren a servicios de lavandería para el cuidado y limpieza de s
 ## Capítulo IV: Product Design
 
 ### 4.1. Style Guidelines
+WashTrack es una plataforma web enfocada en la gestión y seguimiento digital de servicios de lavandería, conectando a clientes con lavanderías para facilitar la programación, procesamiento y monitoreo de sus pedidos. Para brindar una experiencia moderna, clara e intuitiva, se ha optado por un diseño visual limpio, minimalista y funcional. Predominan colores como azul, celeste, blanco y tonos oscuros, que transmiten confianza, limpieza, tecnología y rapidez. El diseño prioriza la simplicidad, organización y accesibilidad, permitiendo que tanto los clientes como los encargados de las lavanderías puedan navegar y gestionar las órdenes de manera sencilla. Además, se emplean elementos visuales diferenciados para representar el estado de cada pedido, facilitando el seguimiento del proceso desde la recepción de las prendas hasta su entrega.
 
 * 4.1.1. General Style Guidelines
+<p>Las guías generales de estilo de WashTrack establecen los principios visuales y comunicacionales que orientan el diseño de la plataforma, buscando mantener una experiencia consistente, clara y fácil de utilizar. Las decisiones se basan en principios de diseño como consistencia, jerarquía visual, legibilidad, simplicidad y accesibilidad, aplicados a los diferentes componentes de la interfaz. Asimismo, se consideran aspectos de branding, tipografía, colores, espaciado y tono de comunicación, con el propósito de transmitir una identidad relacionada con la tecnología, limpieza, confianza y eficiencia que caracteriza al servicio de lavandería digital.
+
+Para mantener una identidad visual coherente, WashTrack utiliza una combinación de <b>tonos azules, celestes, blancos y grises, acompañados de una tipografía diferenciada para títulos y contenido general.</b> La distribución de los elementos utiliza espacios y márgenes que permiten organizar la información sin sobrecargar la interfaz, mientras que botones, tarjetas, indicadores y formularios mantienen características visuales consistentes. En cuanto al lenguaje, la comunicación de WashTrack <b>adopta un tono serio, profesional, cercano y entusiasta</b>, evitando expresiones excesivamente formales o técnicas para facilitar la comprensión tanto de los clientes como de los encargados de las lavanderías.
+
+A continuación, se detallan las <b>principales decisiones de estilo </b>consideradas para la construcción de la interfaz de WashTrack.</p>
+<ul>
+  <li>
+    <b>Branding:</b><br/>
+    <p>El logotipo de WashTrack representa su enfoque en la digitalización, el monitoreo y la rapidez de los servicios de lavandería mediante un diseño moderno, claro y simbólico. En el centro, se muestra una lavadora estilizada acompañada de una pila de prendas dobladas de manera ordenada, reflejando el <b>cuidado textil y la gestión eficiente de los pedidos</b>. Al lado, se integra la silueta de una prenda en su interior de la lavadora, el cual <b>simboliza el seguimiento en tiempo real y la logística de recojo y entrega.</b> Asimismo, la línea de ruta discontinua refuerza visualmente la idea de conectividad, desplazamiento y seguimiento del servicio.</p>
+    <p>Todo este conjunto visual utiliza una paleta de colores basada en tonos <b >azules oscuros y celestes vibrantes, complementados con blanco y destellos brillantes</b>. Los tonos azules transmiten confianza, tecnología y seguridad, mientras que los celestes y blancos se relacionan con la limpieza, frescura y claridad, conceptos asociados directamente al servicio de lavandería. Los destellos aportan una sensación de dinamismo y rapidez, reforzando la propuesta de valor de WashTrack.</p>
+    <p>Finalmente, el nombre WashTrack se presenta mediante una <b>tipografía amigable y dinámica</b>, buscando facilitar su reconocimiento y transmitir cercanía e innovación. El eslogan <b>“TU ROPA, LISTA EN MENOS TIEMPO”</b> complementa la identidad de la marca al comunicar de manera directa su principal beneficio que es ofrecer un servicio eficiente, rápido y fácil de gestionar, logrando una identidad que permite asociar fácilmente a WashTrack con los conceptos de <b>lavandería, tecnología, seguimiento y rapidez.</b></p>
+  </li>
+</ul>
+<p>
+<div align="center">
+  <img src="assets/Logo WachTrack" alt="Logotipo de WashTrack" width="500"/>
+</div>
+</p>
 * 4.1.2. Web Style Guidelines
 
 ### 4.2. Information Architecture
