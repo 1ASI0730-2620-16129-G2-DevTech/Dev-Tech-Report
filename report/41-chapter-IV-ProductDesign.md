@@ -58,6 +58,32 @@ lo que agiliza la localización de información de contacto, identificadores y d
 
 ![Clientes_wireframe.png](../assets/Clientes_wireframe.png)
 
+**Prendas**
+
+La interfaz descrita permite estructurar el catálogo operativo de la lavandería para la Encargada de turno.
+Muestra métricas clave sobre los tipos de prendas registrados y su valor promedio, acompañadas de un listado 
+organizado por categorías, precios y disponibilidad. La parte inferior añade una gráfica interactiva de tendencias
+que ayuda a analizar las prendas más solicitadas a lo largo del tiempo.
+
+![Prendas_wireframe.png](../assets/Prendas_wireframe.png)
+
+**Servicios**
+
+Esta sección está destinada a la gestión del portafolio de prestaciones ofrecidas por la lavandería. Muestra en la
+parte superior métricas sobre el total de servicios, la cantidad de activos, las categorías configuradas y el costo 
+promedio, seguidas por una tabla de datos detallada con tarifas, duraciones estimadas y estados operativos. En la 
+zona inferior incorpora un gráfico de tendencias para evaluar los servicios con mayor demanda según el intervalo de 
+tiempo seleccionado.
+
+![Servicios_wireframe.png](../assets/Servicios_wireframe.png)
+
+**Recojos y Entregas**
+
+El siguiente wireframe organiza la logística de despacho y recolección de prendas para la Encargada de turno. Incluye 
+una barra de búsqueda dedicada, un botón de acción principal para programar nuevos recojos o entregas y una tabla de 
+datos detallada que registra identificadores, tipo de operación, cliente, dirección de destino, repartidor asignado, fecha, hora y estado del servicio
+
+![Recojos_entregas_wireframe.png](../assets/Recojos_entregas_wireframe.png)
 **Monitoreo IOT**
 
 Esta vista permite a la Encargada de turno supervisar en tiempo real el estado técnico y operativo de toda la
