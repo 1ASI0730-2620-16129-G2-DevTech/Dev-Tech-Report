@@ -729,19 +729,37 @@ Personas que recurren a servicios de lavandería para el cuidado y limpieza de s
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-001</td>
-      <td style="border: 1px solid black; padding: 8px;">Título de la historia</td>
-      <td style="border: 1px solid black; padding: 8px;">Descripción de la historia de usuario.</td>
-      <td style="border: 1px solid black; padding: 8px;">Criterios que deben cumplirse.</td>
-      <td style="border: 1px solid black; padding: 8px;">EP-001</td>
+      <td style="border: 1px solid black; padding: 8px;">Recibir notificaciones del estado del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero recibir notificaciones sobre los cambios de estado de mis prendas, para conocer el avance de mi pedido sin tener que comunicarme con la lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema notifica la recepción, lavado, secado, planchado y finalización del pedido.<br>2. La notificación identifica el pedido y la fecha de actualización.<br>3. El cliente puede consultar el historial de estados desde la aplicación.<br>4. El cliente puede activar o desactivar las notificaciones.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-002</td>
-      <td style="border: 1px solid black; padding: 8px;">Título de la historia</td>
-      <td style="border: 1px solid black; padding: 8px;">Descripción de la historia de usuario.</td>
-      <td style="border: 1px solid black; padding: 8px;">Criterios que deben cumplirse.</td>
-      <td style="border: 1px solid black; padding: 8px;">EP-002</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar la hora estimada de finalización</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero consultar la hora estimada en la que estarán listas mis prendas, para organizar mi tiempo y decidir cuándo recogerlas o solicitar su entrega.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema muestra una fecha y hora estimadas de finalización.<br>2. La estimación se actualiza si ocurre un retraso o cambio en el servicio.<br>3. El cliente recibe una notificación cuando las prendas están listas.<br>4. Si existe un retraso, se muestra la nueva hora estimada y el motivo registrado.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-003</td>
+      <td style="border: 1px solid black; padding: 8px;">Solicitar recojo de prendas a domicilio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero solicitar el recojo de mis prendas desde mi domicilio, para enviar mi ropa a la lavandería sin trasladarme al establecimiento.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El cliente puede registrar o seleccionar una dirección de recojo.<br>2. El cliente puede elegir una fecha y un rango horario disponible.<br>3. El sistema muestra el costo del servicio antes de confirmar.<br>4. El cliente recibe la confirmación y el estado del recojo.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-004</td>
+      <td style="border: 1px solid black; padding: 8px;">Solicitar entrega de prendas a domicilio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero solicitar la entrega de mis prendas a domicilio cuando estén listas, para recibirlas sin tener que ir a la lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. La opción de entrega está disponible cuando el pedido se encuentra listo.<br>2. El cliente puede seleccionar una dirección y un rango horario de entrega.<br>3. El sistema muestra el costo total antes de confirmar.<br>4. El cliente recibe notificaciones sobre la asignación, salida y entrega del pedido.<br>5. La entrega se marca como completada únicamente después de la confirmación del cliente o repartidor.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
     </tr>
   </tbody>
 </table>
