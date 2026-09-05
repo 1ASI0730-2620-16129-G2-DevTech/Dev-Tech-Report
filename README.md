@@ -121,10 +121,27 @@
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.2. Information Architecture](#42-information-architecture)
+      - [Landing Page](#landing-page)
+      - [Dashboard / Inicio](#dashboard--inicio)
+      - [Características](#características)
+      - [Seguimiento en Vivo](#seguimiento-en-vivo)
+      - [Sobre Nosotros](#sobre-nosotros)
+      - [Planes y Contacto](#planes-y-contacto)
+      - [Landing Page o Sitio Web](#landing-page-o-sitio-web)
+      - [App Web - Panel Hoy o Dashboard](#app-web---panel-hoy-o-dashboard)
+      - [Sección: Pedidos](#sección-pedidos)
+      - [Sección: Seguimiento en Vivo](#sección-seguimiento-en-vivo)
+      - [Sección: Reportes](#sección-reportes)
+      - [Sección: Configuración](#sección-configuración)
     - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
     - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [Commands principales](#commands-principales)
+    - [Aggregates](#aggregates)
+    - [EventStorming](#eventstorming)
+    - [Actores](#actores)
+    - [Sistemas externos](#sistemas-externos)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.8. Database Design](#48-database-design)
   - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
@@ -305,7 +322,7 @@ Nuestros valores son:
 
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+      <img src="assets/Gabriel_Ramirez.png" alt="Foto de" width="500"/>
     </td>
     <td><b>Nombre:</b> Gabriel Ramirez Gutierrez</td>
   </tr>
@@ -697,6 +714,38 @@ Personas que recurren a servicios de lavandería para el cuidado y limpieza de s
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories
+
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Epic / Story ID</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Título</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Descripción</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Criterios de Aceptación</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-001</td>
+      <td style="border: 1px solid black; padding: 8px;">Título de la historia</td>
+      <td style="border: 1px solid black; padding: 8px;">Descripción de la historia de usuario.</td>
+      <td style="border: 1px solid black; padding: 8px;">Criterios que deben cumplirse.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-002</td>
+      <td style="border: 1px solid black; padding: 8px;">Título de la historia</td>
+      <td style="border: 1px solid black; padding: 8px;">Descripción de la historia de usuario.</td>
+      <td style="border: 1px solid black; padding: 8px;">Criterios que deben cumplirse.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### 3.2. Impact Mapping
 
