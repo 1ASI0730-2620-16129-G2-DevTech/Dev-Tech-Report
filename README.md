@@ -751,9 +751,9 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
   
 </ul>
 <b>Nomenclatura:</b>
-<div align="center">
-    <img src="assets/nomenclatura.png" alt="Nomenclatura" width="300"/>
-</div>
+<p>
+<img src="./assets/Nomenclatura.png" alt="Nomenclatura" width="300"/>
+</p>
   </li>
 </ul>
 <ul>
