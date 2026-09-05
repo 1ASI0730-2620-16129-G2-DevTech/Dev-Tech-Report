@@ -322,7 +322,7 @@ Nuestros valores son:
 
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/Gabriel_Ramirez.png" alt="Foto de" width="500"/>
+      <img src="assets/Gabriel_Ramirez.jpg" alt="Foto de" width="500"/>
     </td>
     <td><b>Nombre:</b> Gabriel Ramirez Gutierrez</td>
   </tr>
