@@ -836,10 +836,10 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
   <table align="center" style="border: none;">
   <tr>
     <td align="center" style="border: none;">
-      <img src="assets/responsive1.png" alt="Responsive 1" width="400"/>
+      <img src="./assets/Responsive1.png" alt="Responsive 1" width="400"/>
     </td>
     <td align="center" style="border: none;">
-      <img src="assets/responsive2.png" alt="Responsive 2" width="400"/>
+      <img src="./assets/Responsive2.png" alt="Responsive 2" width="400"/>
     </td>
   </tr>
 </table>
@@ -849,7 +849,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>La barra de navegación superior (Navbar) permite acceder de forma rápida a las principales funcionalidades de la plataforma, como Inicio, Monitoreo de Lavadoras, Reportes, Alertas IoT y Soporte. En dispositivos móviles, la navegación se adapta mediante un menú tipo hamburguesa, reduciendo la cantidad de elementos visibles y facilitando su interacción.</p>
   </li>
   <div align="center">
-    <img src="assets/SN1.PNG" alt="SN1" width="500"/>
+  <img src="./assets/SN1.png" alt="SN1" width="500"/>
 </div>
 <br>
 <div align="center">
@@ -865,32 +865,29 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     </b><br/>
     <p>Los botones y elementos interactivos mantienen una apariencia consistente con la identidad visual de WashTrack. Los botones principales utilizan el color primario de la marca, mientras que los elementos secundarios emplean colores complementarios. Se consideran diferentes estados de interacción, como estado normal, hover, focus y disabled, proporcionando una respuesta visual clara ante las acciones del usuario.</p>
   </li>
-  <table align="center" style="border: none;">
-  <!-- Par 1: bot1 y bot2 -->
+<table align="center" style="border: none;">
   <tr>
     <td align="center" style="border: none;">
-      <img src="assets/bot1.png" alt="Bot 1" width="400"/>
+      <img src="./assets/bot1.PNG" alt="Bot 1" width="400"/>
     </td>
     <td align="center" style="border: none;">
-      <img src="assets/bot2.png" alt="Bot 2" width="400"/>
+      <img src="./assets/bot2.PNG" alt="Bot 2" width="400"/>
     </td>
   </tr>
-  <!-- Par 2: bot3 y bot4 -->
   <tr>
     <td align="center" style="border: none;">
-      <img src="assets/bot3.png" alt="Bot 3" width="400"/>
+      <img src="./assets/bot3.PNG" alt="Bot 3" width="400"/>
     </td>
     <td align="center" style="border: none;">
-      <img src="assets/bot4.png" alt="Bot 4" width="400"/>
+      <img src="./assets/bot4.PNG" alt="Bot 4" width="400"/>
     </td>
   </tr>
-  <!-- Par 3: bot5 y bot6 -->
   <tr>
     <td align="center" style="border: none;">
-      <img src="assets/bot5.png" alt="Bot 5" width="400"/>
+      <img src="./assets/bot5.PNG" alt="Bot 5" width="400"/>
     </td>
     <td align="center" style="border: none;">
-      <img src="assets/bot6.png" alt="Bot 6" width="400"/>
+      <img src="./assets/bot6.PNG" alt="Bot 6" width="400"/>
     </td>
   </tr>
 </table>
@@ -900,7 +897,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>La información se presenta mediante tarjetas con bordes redondeados y fondos claros sobre superficies en tonos celestes suaves. Este sistema permite organizar métricas, estados de las máquinas, alertas y gráficos de manera independiente, facilitando la lectura y el monitoreo de la información.</p>
   </li>
   <div align="center">
-    <img src="assets/Panel.png" alt="Panel" width="300"/>
+    <img src="./assets/Panel.PNG" alt="Panel" width="300"/>
 </div>
   <li>
     <b>Estados, Alertas y Retroalimentación:
@@ -908,7 +905,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>El sistema utiliza colores diferenciados para comunicar estados y acciones. El verde representa operaciones exitosas o máquinas en línea, mientras que el rojo y naranja se utilizan para alertas, errores o situaciones que requieren atención. De esta manera, la información crítica puede identificarse rápidamente.</p>
   </li>
    <div align="center">
-    <img src="assets/coloresTipo.png" alt="Panel" width="300"/>
+    <img src="./assets/coloresTipo.png" alt="Panel" width="300"/>
 </div>
   <li>
     <b>Transiciones y Animaciones:
@@ -921,7 +918,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>Los componentes mantienen patrones visuales consistentes en toda la plataforma, utilizando la misma paleta de colores, tipografías, bordes, botones, iconografía y estilos de interacción definidos previamente en el sistema de diseño. Esto permite que el usuario reconozca y comprenda los elementos de la interfaz con mayor facilidad.</p>
   </li>
   <div align="center">
-    <img src="assets/conVis1.png" alt="Panel" width="300"/>
+    <img src="./assets/conVis1.png" alt="Panel" width="300"/>
 </div>
 </ul>
 <p>Todas ellas se representan mediante las diferentes vistas de la interfaz web de WashTrack, incluyendo la versión de escritorio, adaptación para dispositivos móviles, sistema de navegación, tarjetas informativas, botones, estados y paneles de monitoreo.</p>
