@@ -121,10 +121,27 @@
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.2. Information Architecture](#42-information-architecture)
+      - [Landing Page](#landing-page)
+      - [Dashboard / Inicio](#dashboard--inicio)
+      - [Características](#características)
+      - [Seguimiento en Vivo](#seguimiento-en-vivo)
+      - [Sobre Nosotros](#sobre-nosotros)
+      - [Planes y Contacto](#planes-y-contacto)
+      - [Landing Page o Sitio Web](#landing-page-o-sitio-web)
+      - [App Web - Panel Hoy o Dashboard](#app-web---panel-hoy-o-dashboard)
+      - [Sección: Pedidos](#sección-pedidos)
+      - [Sección: Seguimiento en Vivo](#sección-seguimiento-en-vivo)
+      - [Sección: Reportes](#sección-reportes)
+      - [Sección: Configuración](#sección-configuración)
     - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
     - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [Commands principales](#commands-principales)
+    - [Aggregates](#aggregates)
+    - [EventStorming](#eventstorming)
+    - [Actores](#actores)
+    - [Sistemas externos](#sistemas-externos)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.8. Database Design](#48-database-design)
   - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
@@ -305,7 +322,7 @@ Nuestros valores son:
 
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+      <img src="assets/Gabriel_Ramirez.jpg" alt="Foto de" width="500"/>
     </td>
     <td><b>Nombre:</b> Gabriel Ramirez Gutierrez</td>
   </tr>
@@ -697,6 +714,200 @@ Personas que recurren a servicios de lavandería para el cuidado y limpieza de s
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories
+
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Epic / Story ID</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Título</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Descripción</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Criterios de Aceptación</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-001</td>
+      <td style="border: 1px solid black; padding: 8px;">Recibir notificaciones del estado del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero recibir notificaciones sobre los cambios de estado de mis prendas, para conocer el avance de mi pedido sin tener que comunicarme con la lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema notifica la recepción, lavado, secado, planchado y finalización del pedido.<br>2. La notificación identifica el pedido y la fecha de actualización.<br>3. El cliente puede consultar el historial de estados desde la aplicación.<br>4. El cliente puede activar o desactivar las notificaciones.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-002</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar la hora estimada de finalización</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero consultar la hora estimada en la que estarán listas mis prendas, para organizar mi tiempo y decidir cuándo recogerlas o solicitar su entrega.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema muestra una fecha y hora estimadas de finalización.<br>2. La estimación se actualiza si ocurre un retraso o cambio en el servicio.<br>3. El cliente recibe una notificación cuando las prendas están listas.<br>4. Si existe un retraso, se muestra la nueva hora estimada y el motivo registrado.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-003</td>
+      <td style="border: 1px solid black; padding: 8px;">Solicitar recojo de prendas a domicilio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero solicitar el recojo de mis prendas desde mi domicilio, para enviar mi ropa a la lavandería sin trasladarme al establecimiento.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El cliente puede registrar o seleccionar una dirección de recojo.<br>2. El cliente puede elegir una fecha y un rango horario disponible.<br>3. El sistema muestra el costo del servicio antes de confirmar.<br>4. El cliente recibe la confirmación y el estado del recojo.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-004</td>
+      <td style="border: 1px solid black; padding: 8px;">Solicitar entrega de prendas a domicilio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero solicitar la entrega de mis prendas a domicilio cuando estén listas, para recibirlas sin tener que ir a la lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. La opción de entrega está disponible cuando el pedido se encuentra listo.<br>2. El cliente puede seleccionar una dirección y un rango horario de entrega.<br>3. El sistema muestra el costo total antes de confirmar.<br>4. El cliente recibe notificaciones sobre la asignación, salida y entrega del pedido.<br>5. La entrega se marca como completada únicamente después de la confirmación del cliente o repartidor.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-005</td>
+      <td style="border: 1px solid black; padding: 8px;">Registrar clientes</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado de lavandería, quiero registrar los datos de mis clientes para mantener organizada su información.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema permite registrar nombre, teléfono y correo.<br>2. Se validan los campos obligatorios.<br>3. El encargado puede editar y consultar la información registrada.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-003: Gestión de clientes</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-006</td>
+      <td style="border: 1px solid black; padding: 8px;">Crear pedidos</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado de lavandería, quiero crear un pedido asociado a un cliente para controlar el servicio solicitado.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se registra el cliente, los servicios, las prendas, el precio y la fecha estimada.<br>2. El sistema genera un código único para el pedido.<br>3. El sistema muestra una confirmación de creación.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-007</td>
+      <td style="border: 1px solid black; padding: 8px;">Registrar prendas</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado, quiero registrar las prendas incluidas en un pedido para evitar pérdidas o confusiones.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se registra el tipo, cantidad, características y observaciones de cada prenda.<br>2. Cada prenda queda asociada a un pedido.<br>3. El encargado puede consultar el detalle de las prendas.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-008</td>
+      <td style="border: 1px solid black; padding: 8px;">Actualizar estado del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como trabajador de lavandería, quiero actualizar el estado de un pedido para que el cliente conozca su progreso.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema permite seleccionar estados como recibido, en lavado, secado, planchado, listo y entregado.<br>2. Se guarda la fecha, hora y usuario del cambio.<br>3. El cliente recibe una notificación del cambio.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-009</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar historial de pedidos</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero consultar mis pedidos anteriores para revisar los servicios realizados y sus detalles.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema muestra los pedidos ordenados por fecha.<br>2. El cliente puede consultar prendas, servicios, precio y estado final.<br>3. El cliente puede buscar un pedido específico.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-005: Historial de operaciones</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-010</td>
+      <td style="border: 1px solid black; padding: 8px;">Buscar y filtrar pedidos</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado, quiero buscar y filtrar pedidos para encontrar rápidamente una orden.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se puede buscar por código, cliente o teléfono.<br>2. Se puede filtrar por estado y fecha.<br>3. El sistema muestra los resultados correspondientes.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-011</td>
+      <td style="border: 1px solid black; padding: 8px;">Registrar pagos</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado, quiero registrar el pago de un pedido para mantener actualizado el estado financiero de la orden.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se registra el monto, método y fecha de pago.<br>2. El pedido muestra el estado pendiente, parcial o pagado.<br>3. El pago queda asociado al pedido correspondiente.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-006: Gestión de pagos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-012</td>
+      <td style="border: 1px solid black; padding: 8px;">Realizar pagos digitales</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero pagar mi pedido desde la plataforma para completar el servicio de forma rápida y segura.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema muestra el monto total.<br>2. El cliente puede seleccionar un medio de pago.<br>3. Se confirma o rechaza la operación.<br>4. El estado del pago se actualiza automáticamente.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-006: Gestión de pagos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-013</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar incidencias</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado, quiero registrar incidencias relacionadas con prendas o pedidos para comunicar una solución al cliente.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se registra el tipo, descripción y evidencia de la incidencia.<br>2. El cliente recibe una notificación.<br>3. La incidencia puede marcarse como abierta, en revisión o resuelta.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-007: Atención de incidencias</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-014</td>
+      <td style="border: 1px solid black; padding: 8px;">Visualizar dashboard operativo</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario de lavandería, quiero consultar indicadores del negocio para conocer el estado de mis operaciones.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se muestran pedidos pendientes, en proceso, listos y entregados.<br>2. Se muestran ingresos y clientes registrados.<br>3. Los indicadores pueden filtrarse por periodo.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-015</td>
+      <td style="border: 1px solid black; padding: 8px;">Administrar servicios y precios</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario, quiero configurar los servicios y precios de mi lavandería para mantener actualizada la oferta.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se pueden crear, editar, activar y desactivar servicios.<br>2. Cada servicio tiene un precio y tiempo estimado.<br>3. Los cambios se reflejan en los nuevos pedidos.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-009: Configuración de la lavandería</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-016</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar usuarios y roles</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario, quiero administrar los accesos del personal para controlar qué acciones puede realizar cada usuario.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El propietario puede crear y desactivar usuarios.<br>2. Puede asignar roles de propietario, administrador o trabajador.<br>3. El sistema restringe las funciones según los permisos asignados.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-010: Administración de usuarios</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-017</td>
+      <td style="border: 1px solid black; padding: 8px;">Confirmar entrega del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado, quiero registrar la entrega de un pedido para cerrar correctamente el proceso.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se registra la fecha, hora y responsable de la entrega.<br>2. Se solicita confirmación del cliente o encargado.<br>3. El pedido cambia al estado entregado y permanece en el historial.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-018</td>
+      <td style="border: 1px solid black; padding: 8px;">Calificar el servicio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero calificar el servicio recibido para expresar mi nivel de satisfacción y ayudar a la lavandería a mejorar.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El cliente puede calificar de 1 a 5.<br>2. Puede agregar un comentario opcional.<br>3. La evaluación queda asociada al pedido y aparece en los reportes.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-011: Satisfacción del cliente</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-019</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar suscripción</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario, quiero seleccionar un plan de suscripción para utilizar las funcionalidades disponibles según las necesidades de mi lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se muestran los planes, precios, límites y beneficios.<br>2. El propietario puede cambiar de plan.<br>3. El sistema informa el estado de la suscripción.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-012: Suscripciones</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-020</td>
+      <td style="border: 1px solid black; padding: 8px;">Exportar reportes</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario, quiero exportar reportes de pedidos y pagos para analizarlos o conservarlos como respaldo.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se puede filtrar la información por periodo.<br>2. El sistema permite exportar el reporte en PDF o Excel.<br>3. El reporte incluye totales y detalle de las operaciones.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### 3.2. Impact Mapping
 
